@@ -1,0 +1,986 @@
+2025-12-10 08:24:32,520 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2025-12-10 08:24:32,565 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2025-12-10 08:24:32,645 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.NodeDescribeSignalHandler] loading.
+
+2025-12-10 08:24:32,646 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.NodeMetricsSignalHandler] loading.
+
+2025-12-10 08:24:32,646 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.ThreadPoolMetricsSignalHandler] loading.
+
+2025-12-10 08:24:32,648 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2025-12-10 08:24:32,649 INFO The number of active nodes increment to 1.
+
+2025-12-10 08:24:33,227 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 0 to 16, cost 0 ms.
+
+2025-12-10 08:24:33,231 INFO Starts FSMCaller successfully.
+
+2025-12-10 08:24:33,237 INFO Loading snapshot, meta=last_included_index: 15
+last_included_term: 15
+peers: "192.168.0.80:7848"
+.
+
+2025-12-10 08:24:33,274 INFO Node <naming_persistent_service_v2/192.168.0.80:7848> onSnapshotLoadDone, last_included_index: 15
+last_included_term: 15
+peers: "192.168.0.80:7848"
+
+
+2025-12-10 08:24:33,274 INFO Node <naming_persistent_service_v2/192.168.0.80:7848> target priority value has changed from: 0, to: -1.
+
+2025-12-10 08:24:33,275 INFO Node <naming_persistent_service_v2/192.168.0.80:7848> init ballot box's lastCommittedIndex=15.
+
+2025-12-10 08:24:33,278 INFO Node <naming_persistent_service_v2/192.168.0.80:7848> init, term=15, lastLogId=LogId [index=15, term=15], conf=192.168.0.80:7848, oldConf=.
+
+2025-12-10 08:24:33,279 INFO Node <naming_persistent_service_v2/192.168.0.80:7848> start vote and grant vote self, term=15.
+
+2025-12-10 08:24:33,283 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 16 to 16, cost 0 ms.
+
+2025-12-10 08:24:33,296 INFO Save raft meta, path=/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/meta-data, term=16, votedFor=192.168.0.80:7848, cost time=12 ms
+
+2025-12-10 08:24:33,296 INFO Node <naming_persistent_service_v2/192.168.0.80:7848> become leader of group, term=16, conf=192.168.0.80:7848, oldConf=.
+
+2025-12-10 08:24:33,297 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2025-12-10 08:24:33,298 WARN RPC server is not started in RaftGroupService.
+
+2025-12-10 08:24:33,298 INFO Start the RaftGroupService successfully.
+
+2025-12-10 08:24:33,307 INFO The number of active nodes increment to 2.
+
+2025-12-10 08:24:33,307 INFO onLeaderStart: term=16.
+
+2025-12-10 08:24:33,349 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/log from log index 0 to 16, cost 0 ms.
+
+2025-12-10 08:24:33,350 INFO Starts FSMCaller successfully.
+
+2025-12-10 08:24:33,350 INFO Loading snapshot, meta=last_included_index: 15
+last_included_term: 15
+peers: "192.168.0.80:7848"
+.
+
+2025-12-10 08:24:33,351 INFO Node <naming_persistent_service/192.168.0.80:7848> onSnapshotLoadDone, last_included_index: 15
+last_included_term: 15
+peers: "192.168.0.80:7848"
+
+
+2025-12-10 08:24:33,351 INFO Node <naming_persistent_service/192.168.0.80:7848> target priority value has changed from: 0, to: -1.
+
+2025-12-10 08:24:33,351 INFO Node <naming_persistent_service/192.168.0.80:7848> init ballot box's lastCommittedIndex=15.
+
+2025-12-10 08:24:33,352 INFO Creating new channel to: 192.168.0.80:7848.
+
+2025-12-10 08:24:33,353 INFO Node <naming_persistent_service/192.168.0.80:7848> init, term=15, lastLogId=LogId [index=15, term=15], conf=192.168.0.80:7848, oldConf=.
+
+2025-12-10 08:24:33,356 INFO Node <naming_persistent_service/192.168.0.80:7848> start vote and grant vote self, term=15.
+
+2025-12-10 08:24:33,360 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/log from log index 16 to 16, cost 0 ms.
+
+2025-12-10 08:24:33,361 INFO The channel 192.168.0.80:7848 is in state: CONNECTING.
+
+2025-12-10 08:24:33,365 INFO Save raft meta, path=/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/meta-data, term=16, votedFor=192.168.0.80:7848, cost time=8 ms
+
+2025-12-10 08:24:33,365 INFO Node <naming_persistent_service/192.168.0.80:7848> become leader of group, term=16, conf=192.168.0.80:7848, oldConf=.
+
+2025-12-10 08:24:33,365 WARN RPC server is not started in RaftGroupService.
+
+2025-12-10 08:24:33,365 INFO Start the RaftGroupService successfully.
+
+2025-12-10 08:24:33,369 INFO onLeaderStart: term=16.
+
+2025-12-10 08:24:33,374 INFO The number of active nodes increment to 3.
+
+2025-12-10 08:24:33,413 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/log from log index 0 to 16, cost 0 ms.
+
+2025-12-10 08:24:33,414 INFO Starts FSMCaller successfully.
+
+2025-12-10 08:24:33,414 INFO Loading snapshot, meta=last_included_index: 15
+last_included_term: 15
+peers: "192.168.0.80:7848"
+.
+
+2025-12-10 08:24:33,415 INFO Node <naming_instance_metadata/192.168.0.80:7848> onSnapshotLoadDone, last_included_index: 15
+last_included_term: 15
+peers: "192.168.0.80:7848"
+
+
+2025-12-10 08:24:33,415 INFO Node <naming_instance_metadata/192.168.0.80:7848> target priority value has changed from: 0, to: -1.
+
+2025-12-10 08:24:33,416 INFO Node <naming_instance_metadata/192.168.0.80:7848> init ballot box's lastCommittedIndex=15.
+
+2025-12-10 08:24:33,416 INFO Node <naming_instance_metadata/192.168.0.80:7848> init, term=15, lastLogId=LogId [index=15, term=15], conf=192.168.0.80:7848, oldConf=.
+
+2025-12-10 08:24:33,416 INFO Node <naming_instance_metadata/192.168.0.80:7848> start vote and grant vote self, term=15.
+
+2025-12-10 08:24:33,426 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/log from log index 16 to 16, cost 0 ms.
+
+2025-12-10 08:24:33,435 INFO Save raft meta, path=/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=16, votedFor=192.168.0.80:7848, cost time=15 ms
+
+2025-12-10 08:24:33,435 INFO Node <naming_instance_metadata/192.168.0.80:7848> become leader of group, term=16, conf=192.168.0.80:7848, oldConf=.
+
+2025-12-10 08:24:33,435 WARN RPC server is not started in RaftGroupService.
+
+2025-12-10 08:24:33,435 INFO Start the RaftGroupService successfully.
+
+2025-12-10 08:24:33,439 INFO The number of active nodes increment to 4.
+
+2025-12-10 08:24:33,439 INFO onLeaderStart: term=16.
+
+2025-12-10 08:24:33,472 INFO The channel 192.168.0.80:7848 is in state: READY.
+
+2025-12-10 08:24:33,474 INFO The channel 192.168.0.80:7848 has successfully established.
+
+2025-12-10 08:24:33,474 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/log from log index 0 to 16, cost 0 ms.
+
+2025-12-10 08:24:33,475 INFO Starts FSMCaller successfully.
+
+2025-12-10 08:24:33,476 INFO Loading snapshot, meta=last_included_index: 15
+last_included_term: 15
+peers: "192.168.0.80:7848"
+.
+
+2025-12-10 08:24:33,476 INFO Node <naming_service_metadata/192.168.0.80:7848> onSnapshotLoadDone, last_included_index: 15
+last_included_term: 15
+peers: "192.168.0.80:7848"
+
+
+2025-12-10 08:24:33,476 INFO Node <naming_service_metadata/192.168.0.80:7848> target priority value has changed from: 0, to: -1.
+
+2025-12-10 08:24:33,476 INFO Node <naming_service_metadata/192.168.0.80:7848> init ballot box's lastCommittedIndex=15.
+
+2025-12-10 08:24:33,478 INFO Node <naming_service_metadata/192.168.0.80:7848> init, term=15, lastLogId=LogId [index=15, term=15], conf=192.168.0.80:7848, oldConf=.
+
+2025-12-10 08:24:33,480 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/log from log index 16 to 16, cost 0 ms.
+
+2025-12-10 08:24:33,480 INFO Node <naming_service_metadata/192.168.0.80:7848> start vote and grant vote self, term=15.
+
+2025-12-10 08:24:33,490 INFO Save raft meta, path=/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/meta-data, term=16, votedFor=192.168.0.80:7848, cost time=10 ms
+
+2025-12-10 08:24:33,490 INFO Node <naming_service_metadata/192.168.0.80:7848> become leader of group, term=16, conf=192.168.0.80:7848, oldConf=.
+
+2025-12-10 08:24:33,490 WARN RPC server is not started in RaftGroupService.
+
+2025-12-10 08:24:33,490 INFO Start the RaftGroupService successfully.
+
+2025-12-10 08:24:33,494 INFO onLeaderStart: term=16.
+
+2025-12-10 08:24:33,579 INFO The number of active nodes increment to 5.
+
+2025-12-10 08:24:33,623 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 0 to 16, cost 0 ms.
+
+2025-12-10 08:24:33,624 INFO Starts FSMCaller successfully.
+
+2025-12-10 08:24:33,625 INFO Loading snapshot, meta=last_included_index: 15
+last_included_term: 15
+peers: "192.168.0.80:7848"
+.
+
+2025-12-10 08:24:33,626 INFO Node <lock_acquire_service_v2/192.168.0.80:7848> onSnapshotLoadDone, last_included_index: 15
+last_included_term: 15
+peers: "192.168.0.80:7848"
+
+
+2025-12-10 08:24:33,626 INFO Node <lock_acquire_service_v2/192.168.0.80:7848> target priority value has changed from: 0, to: -1.
+
+2025-12-10 08:24:33,626 INFO Node <lock_acquire_service_v2/192.168.0.80:7848> init ballot box's lastCommittedIndex=15.
+
+2025-12-10 08:24:33,627 INFO Node <lock_acquire_service_v2/192.168.0.80:7848> init, term=15, lastLogId=LogId [index=15, term=15], conf=192.168.0.80:7848, oldConf=.
+
+2025-12-10 08:24:33,631 INFO Node <lock_acquire_service_v2/192.168.0.80:7848> start vote and grant vote self, term=15.
+
+2025-12-10 08:24:33,634 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 16 to 16, cost 0 ms.
+
+2025-12-10 08:24:33,644 INFO Save raft meta, path=/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/meta-data, term=16, votedFor=192.168.0.80:7848, cost time=10 ms
+
+2025-12-10 08:24:33,644 INFO Node <lock_acquire_service_v2/192.168.0.80:7848> become leader of group, term=16, conf=192.168.0.80:7848, oldConf=.
+
+2025-12-10 08:24:33,644 WARN RPC server is not started in RaftGroupService.
+
+2025-12-10 08:24:33,644 INFO Start the RaftGroupService successfully.
+
+2025-12-10 08:24:33,648 INFO onLeaderStart: term=16.
+
+2025-12-10 08:44:02,358 INFO Deleting snapshot /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_16.
+
+2025-12-10 08:44:02,358 INFO Renaming /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/snapshot/temp to /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_16.
+
+2025-12-10 08:44:02,367 INFO Deleting snapshot /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_15.
+
+2025-12-10 08:44:02,376 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/log from log index 16 to 16, cost 0 ms.
+
+2025-12-10 08:49:39,230 INFO Deleting snapshot /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/snapshot/snapshot_16.
+
+2025-12-10 08:49:39,230 INFO Renaming /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/snapshot/temp to /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/snapshot/snapshot_16.
+
+2025-12-10 08:49:39,236 INFO Deleting snapshot /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/snapshot/snapshot_15.
+
+2025-12-10 08:49:39,242 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 16 to 16, cost 0 ms.
+
+2025-12-10 08:49:43,053 INFO Deleting snapshot /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_16.
+
+2025-12-10 08:49:43,053 INFO Renaming /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/temp to /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_16.
+
+2025-12-10 08:49:43,058 INFO Deleting snapshot /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_15.
+
+2025-12-10 08:49:43,065 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 16 to 16, cost 1 ms.
+
+2025-12-10 08:52:51,253 INFO Deleting snapshot /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_16.
+
+2025-12-10 08:52:51,253 INFO Renaming /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/snapshot/temp to /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_16.
+
+2025-12-10 08:52:51,258 INFO Deleting snapshot /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_15.
+
+2025-12-10 08:52:51,264 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/log from log index 16 to 16, cost 0 ms.
+
+2025-12-10 08:53:28,499 INFO Deleting snapshot /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_16.
+
+2025-12-10 08:53:28,499 INFO Renaming /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/snapshot/temp to /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_16.
+
+2025-12-10 08:53:28,504 INFO Deleting snapshot /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_15.
+
+2025-12-10 08:53:28,510 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/log from log index 16 to 16, cost 0 ms.
+
+2025-12-10 09:14:02,354 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/log from log index 16 to 17, cost 0 ms.
+
+2025-12-10 09:19:39,211 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 16 to 17, cost 0 ms.
+
+2025-12-10 09:19:43,049 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 16 to 17, cost 1 ms.
+
+2025-12-10 09:22:51,248 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/log from log index 16 to 17, cost 0 ms.
+
+2025-12-10 09:23:28,494 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/log from log index 16 to 17, cost 1 ms.
+
+2025-12-10 09:44:02,293 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/log from log index 17 to 17, cost 0 ms.
+
+2025-12-10 09:49:39,146 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 17 to 17, cost 0 ms.
+
+2025-12-10 09:49:42,974 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 17 to 17, cost 0 ms.
+
+2025-12-10 09:52:51,186 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/log from log index 17 to 17, cost 0 ms.
+
+2025-12-10 09:53:28,421 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/log from log index 17 to 17, cost 0 ms.
+
+2025-12-10 10:14:02,309 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/log from log index 17 to 17, cost 1 ms.
+
+2025-12-10 10:19:39,162 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 17 to 17, cost 0 ms.
+
+2025-12-10 10:19:42,991 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 17 to 17, cost 0 ms.
+
+2025-12-10 10:22:51,199 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/log from log index 17 to 17, cost 0 ms.
+
+2025-12-10 10:23:28,443 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/log from log index 17 to 17, cost 0 ms.
+
+2025-12-10 10:44:02,307 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/log from log index 17 to 17, cost 1 ms.
+
+2025-12-10 10:49:39,152 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 17 to 17, cost 0 ms.
+
+2025-12-10 10:49:42,982 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 17 to 17, cost 0 ms.
+
+2025-12-10 10:52:51,198 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/log from log index 17 to 17, cost 1 ms.
+
+2025-12-10 10:53:28,431 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/log from log index 17 to 17, cost 0 ms.
+
+2025-12-10 11:14:02,295 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/log from log index 17 to 17, cost 2 ms.
+
+2025-12-10 11:19:39,147 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 17 to 17, cost 1 ms.
+
+2025-12-10 11:19:42,976 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 17 to 17, cost 1 ms.
+
+2025-12-10 11:22:51,189 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/log from log index 17 to 17, cost 1 ms.
+
+2025-12-10 11:23:28,425 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/log from log index 17 to 17, cost 1 ms.
+
+2025-12-10 11:36:12,383 INFO Node <lock_acquire_service_v2/192.168.0.80:7848> shutdown, currTerm=16 state=STATE_LEADER.
+
+2025-12-10 11:36:12,384 INFO Fail to find the next candidate, group lock_acquire_service_v2.
+
+2025-12-10 11:36:12,384 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2025-12-10 11:36:12,393 INFO Save raft meta, path=/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/meta-data, term=16, votedFor=192.168.0.80:7848, cost time=8 ms
+
+2025-12-10 11:36:12,393 INFO Shutting down FSMCaller...
+
+2025-12-10 11:36:12,394 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@3dad8926[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2025-12-10 11:36:12,394 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@1228a579[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2025-12-10 11:36:12,394 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<lock_acquire_service_v2/192.168.0.80:7848>'}.
+
+2025-12-10 11:36:12,394 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<lock_acquire_service_v2/192.168.0.80:7848>'}.
+
+2025-12-10 11:36:12,394 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<lock_acquire_service_v2/192.168.0.80:7848>'}.
+
+2025-12-10 11:36:12,394 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<lock_acquire_service_v2/192.168.0.80:7848>'}.
+
+2025-12-10 11:36:12,394 INFO onShutdown.
+
+2025-12-10 11:36:12,394 INFO Node <lock_acquire_service_v2/192.168.0.80:7848> shutdown, currTerm=16 state=STATE_SHUTTING.
+
+2025-12-10 11:36:12,394 INFO The number of active nodes decrement to 4.
+
+2025-12-10 11:36:12,394 INFO Stop the RaftGroupService successfully.
+
+2025-12-10 11:36:12,394 INFO Node <naming_service_metadata/192.168.0.80:7848> shutdown, currTerm=16 state=STATE_LEADER.
+
+2025-12-10 11:36:12,394 INFO Fail to find the next candidate, group naming_service_metadata.
+
+2025-12-10 11:36:12,395 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2025-12-10 11:36:12,404 INFO Save raft meta, path=/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/meta-data, term=16, votedFor=192.168.0.80:7848, cost time=10 ms
+
+2025-12-10 11:36:12,404 INFO Shutting down FSMCaller...
+
+2025-12-10 11:36:12,404 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@21dc1d99[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2025-12-10 11:36:12,404 INFO onShutdown.
+
+2025-12-10 11:36:12,404 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@28023029[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2025-12-10 11:36:12,404 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_service_metadata/192.168.0.80:7848>'}.
+
+2025-12-10 11:36:12,404 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_service_metadata/192.168.0.80:7848>'}.
+
+2025-12-10 11:36:12,405 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_service_metadata/192.168.0.80:7848>'}.
+
+2025-12-10 11:36:12,405 INFO The number of active nodes decrement to 3.
+
+2025-12-10 11:36:12,405 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_service_metadata/192.168.0.80:7848>'}.
+
+2025-12-10 11:36:12,405 INFO Node <naming_service_metadata/192.168.0.80:7848> shutdown, currTerm=16 state=STATE_SHUTTING.
+
+2025-12-10 11:36:12,405 INFO Stop the RaftGroupService successfully.
+
+2025-12-10 11:36:12,405 INFO Node <naming_persistent_service/192.168.0.80:7848> shutdown, currTerm=16 state=STATE_LEADER.
+
+2025-12-10 11:36:12,405 INFO Fail to find the next candidate, group naming_persistent_service.
+
+2025-12-10 11:36:12,405 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2025-12-10 11:36:12,406 INFO DB destroyed, the db path is: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/log.
+
+2025-12-10 11:36:12,410 INFO DB destroyed, the db path is: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/log.
+
+2025-12-10 11:36:12,414 INFO Save raft meta, path=/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/meta-data, term=16, votedFor=192.168.0.80:7848, cost time=9 ms
+
+2025-12-10 11:36:12,414 INFO Shutting down FSMCaller...
+
+2025-12-10 11:36:12,414 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@5bbda8aa[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2025-12-10 11:36:12,414 INFO onShutdown.
+
+2025-12-10 11:36:12,414 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@1e1c1634[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2025-12-10 11:36:12,414 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_persistent_service/192.168.0.80:7848>'}.
+
+2025-12-10 11:36:12,414 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_persistent_service/192.168.0.80:7848>'}.
+
+2025-12-10 11:36:12,414 INFO The number of active nodes decrement to 2.
+
+2025-12-10 11:36:12,415 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_persistent_service/192.168.0.80:7848>'}.
+
+2025-12-10 11:36:12,415 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_persistent_service/192.168.0.80:7848>'}.
+
+2025-12-10 11:36:12,415 INFO Node <naming_persistent_service/192.168.0.80:7848> shutdown, currTerm=16 state=STATE_SHUTTING.
+
+2025-12-10 11:36:12,415 INFO Stop the RaftGroupService successfully.
+
+2025-12-10 11:36:12,415 INFO Node <naming_instance_metadata/192.168.0.80:7848> shutdown, currTerm=16 state=STATE_LEADER.
+
+2025-12-10 11:36:12,415 INFO Fail to find the next candidate, group naming_instance_metadata.
+
+2025-12-10 11:36:12,415 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2025-12-10 11:36:12,416 INFO DB destroyed, the db path is: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/log.
+
+2025-12-10 11:36:12,429 INFO Save raft meta, path=/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=16, votedFor=192.168.0.80:7848, cost time=14 ms
+
+2025-12-10 11:36:12,429 INFO Shutting down FSMCaller...
+
+2025-12-10 11:36:12,429 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@2220780d[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2025-12-10 11:36:12,429 INFO onShutdown.
+
+2025-12-10 11:36:12,429 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@225fc6a2[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2025-12-10 11:36:12,429 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_instance_metadata/192.168.0.80:7848>'}.
+
+2025-12-10 11:36:12,429 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_instance_metadata/192.168.0.80:7848>'}.
+
+2025-12-10 11:36:12,429 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_instance_metadata/192.168.0.80:7848>'}.
+
+2025-12-10 11:36:12,429 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_instance_metadata/192.168.0.80:7848>'}.
+
+2025-12-10 11:36:12,429 INFO Node <naming_instance_metadata/192.168.0.80:7848> shutdown, currTerm=16 state=STATE_SHUTTING.
+
+2025-12-10 11:36:12,429 INFO The number of active nodes decrement to 1.
+
+2025-12-10 11:36:12,429 INFO Stop the RaftGroupService successfully.
+
+2025-12-10 11:36:12,429 INFO Node <naming_persistent_service_v2/192.168.0.80:7848> shutdown, currTerm=16 state=STATE_LEADER.
+
+2025-12-10 11:36:12,429 INFO Fail to find the next candidate, group naming_persistent_service_v2.
+
+2025-12-10 11:36:12,429 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2025-12-10 11:36:12,430 INFO DB destroyed, the db path is: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/log.
+
+2025-12-10 11:36:12,440 INFO Save raft meta, path=/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/meta-data, term=16, votedFor=192.168.0.80:7848, cost time=11 ms
+
+2025-12-10 11:36:12,440 INFO Shutting down FSMCaller...
+
+2025-12-10 11:36:12,441 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@1a6aecec[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2025-12-10 11:36:12,441 INFO onShutdown.
+
+2025-12-10 11:36:12,441 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@6ba6f4e7[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2025-12-10 11:36:12,441 INFO The number of active nodes decrement to 0.
+
+2025-12-10 11:36:12,442 INFO ThreadPool is terminated: JRaft-Global-ElectionTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@404bca88[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5].
+
+2025-12-10 11:36:12,443 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_persistent_service_v2/192.168.0.80:7848>'}.
+
+2025-12-10 11:36:12,444 INFO ThreadPool is terminated: JRaft-Global-VoteTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@2cf7860e[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5].
+
+2025-12-10 11:36:12,444 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_persistent_service_v2/192.168.0.80:7848>'}.
+
+2025-12-10 11:36:12,444 INFO ThreadPool is terminated: JRaft-Global-StepDownTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@60877629[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 22545].
+
+2025-12-10 11:36:12,444 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_persistent_service_v2/192.168.0.80:7848>'}.
+
+2025-12-10 11:36:12,444 INFO ThreadPool is terminated: JRaft-Global-SnapshotTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@d332ebc[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 30].
+
+2025-12-10 11:36:12,445 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_persistent_service_v2/192.168.0.80:7848>'}.
+
+2025-12-10 11:36:12,445 INFO Node <naming_persistent_service_v2/192.168.0.80:7848> shutdown, currTerm=16 state=STATE_SHUTTING.
+
+2025-12-10 11:36:12,445 INFO Stop the RaftGroupService successfully.
+
+2025-12-10 11:36:12,445 INFO Shutdown managed channel: 192.168.0.80:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=10, target=192.168.0.80:7848}}.
+
+2025-12-10 11:36:12,446 INFO The channel 192.168.0.80:7848 is in state: SHUTDOWN.
+
+2025-12-10 11:36:12,446 WARN This channel 192.168.0.80:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2025-12-10 11:36:12,446 INFO DB destroyed, the db path is: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/log.
+
+2025-12-10 11:36:12,451 INFO Connection disconnected: /192.168.0.80:60865
+
+2025-12-10 11:36:12,454 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@40597c95[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 16112].
+
+2025-12-10 11:40:50,218 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2025-12-10 11:40:50,261 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2025-12-10 11:40:50,332 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.NodeDescribeSignalHandler] loading.
+
+2025-12-10 11:40:50,332 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.NodeMetricsSignalHandler] loading.
+
+2025-12-10 11:40:50,332 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.ThreadPoolMetricsSignalHandler] loading.
+
+2025-12-10 11:40:50,338 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2025-12-10 11:40:50,340 INFO The number of active nodes increment to 1.
+
+2025-12-10 11:40:50,730 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 0 to 17, cost 3 ms.
+
+2025-12-10 11:40:50,731 INFO Starts FSMCaller successfully.
+
+2025-12-10 11:40:50,741 INFO Loading snapshot, meta=last_included_index: 16
+last_included_term: 16
+peers: "192.168.0.80:7848"
+.
+
+2025-12-10 11:40:50,773 INFO Node <naming_persistent_service_v2/192.168.0.80:7848> onSnapshotLoadDone, last_included_index: 16
+last_included_term: 16
+peers: "192.168.0.80:7848"
+
+
+2025-12-10 11:40:50,774 INFO Node <naming_persistent_service_v2/192.168.0.80:7848> target priority value has changed from: 0, to: -1.
+
+2025-12-10 11:40:50,775 INFO Node <naming_persistent_service_v2/192.168.0.80:7848> init ballot box's lastCommittedIndex=16.
+
+2025-12-10 11:40:50,778 INFO Node <naming_persistent_service_v2/192.168.0.80:7848> init, term=16, lastLogId=LogId [index=16, term=16], conf=192.168.0.80:7848, oldConf=.
+
+2025-12-10 11:40:50,779 INFO Node <naming_persistent_service_v2/192.168.0.80:7848> start vote and grant vote self, term=16.
+
+2025-12-10 11:40:50,783 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 17 to 17, cost 0 ms.
+
+2025-12-10 11:40:50,797 INFO Save raft meta, path=/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/meta-data, term=17, votedFor=192.168.0.80:7848, cost time=14 ms
+
+2025-12-10 11:40:50,797 INFO Node <naming_persistent_service_v2/192.168.0.80:7848> become leader of group, term=17, conf=192.168.0.80:7848, oldConf=.
+
+2025-12-10 11:40:50,798 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2025-12-10 11:40:50,799 WARN RPC server is not started in RaftGroupService.
+
+2025-12-10 11:40:50,799 INFO Start the RaftGroupService successfully.
+
+2025-12-10 11:40:50,807 INFO onLeaderStart: term=17.
+
+2025-12-10 11:40:50,809 INFO The number of active nodes increment to 2.
+
+2025-12-10 11:40:50,852 INFO Creating new channel to: 192.168.0.80:7848.
+
+2025-12-10 11:40:50,853 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/log from log index 0 to 17, cost 1 ms.
+
+2025-12-10 11:40:50,853 INFO Starts FSMCaller successfully.
+
+2025-12-10 11:40:50,854 INFO Loading snapshot, meta=last_included_index: 16
+last_included_term: 16
+peers: "192.168.0.80:7848"
+.
+
+2025-12-10 11:40:50,857 INFO The channel 192.168.0.80:7848 is in state: CONNECTING.
+
+2025-12-10 11:40:50,858 INFO Node <naming_persistent_service/192.168.0.80:7848> onSnapshotLoadDone, last_included_index: 16
+last_included_term: 16
+peers: "192.168.0.80:7848"
+
+
+2025-12-10 11:40:50,862 INFO Node <naming_persistent_service/192.168.0.80:7848> target priority value has changed from: 0, to: -1.
+
+2025-12-10 11:40:50,862 INFO Node <naming_persistent_service/192.168.0.80:7848> init ballot box's lastCommittedIndex=16.
+
+2025-12-10 11:40:50,867 INFO Node <naming_persistent_service/192.168.0.80:7848> init, term=16, lastLogId=LogId [index=16, term=16], conf=192.168.0.80:7848, oldConf=.
+
+2025-12-10 11:40:50,871 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/log from log index 17 to 17, cost 0 ms.
+
+2025-12-10 11:40:50,871 INFO Node <naming_persistent_service/192.168.0.80:7848> start vote and grant vote self, term=16.
+
+2025-12-10 11:40:50,887 INFO Save raft meta, path=/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/meta-data, term=17, votedFor=192.168.0.80:7848, cost time=16 ms
+
+2025-12-10 11:40:50,887 INFO Node <naming_persistent_service/192.168.0.80:7848> become leader of group, term=17, conf=192.168.0.80:7848, oldConf=.
+
+2025-12-10 11:40:50,887 WARN RPC server is not started in RaftGroupService.
+
+2025-12-10 11:40:50,887 INFO Start the RaftGroupService successfully.
+
+2025-12-10 11:40:50,895 INFO onLeaderStart: term=17.
+
+2025-12-10 11:40:50,897 INFO The number of active nodes increment to 3.
+
+2025-12-10 11:40:50,940 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/log from log index 0 to 17, cost 0 ms.
+
+2025-12-10 11:40:50,941 INFO Starts FSMCaller successfully.
+
+2025-12-10 11:40:50,944 INFO Loading snapshot, meta=last_included_index: 16
+last_included_term: 16
+peers: "192.168.0.80:7848"
+.
+
+2025-12-10 11:40:50,945 INFO Node <naming_instance_metadata/192.168.0.80:7848> onSnapshotLoadDone, last_included_index: 16
+last_included_term: 16
+peers: "192.168.0.80:7848"
+
+
+2025-12-10 11:40:50,949 INFO Node <naming_instance_metadata/192.168.0.80:7848> target priority value has changed from: 0, to: -1.
+
+2025-12-10 11:40:50,949 INFO Node <naming_instance_metadata/192.168.0.80:7848> init ballot box's lastCommittedIndex=16.
+
+2025-12-10 11:40:50,949 INFO Node <naming_instance_metadata/192.168.0.80:7848> init, term=16, lastLogId=LogId [index=16, term=16], conf=192.168.0.80:7848, oldConf=.
+
+2025-12-10 11:40:50,953 INFO Node <naming_instance_metadata/192.168.0.80:7848> start vote and grant vote self, term=16.
+
+2025-12-10 11:40:50,956 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/log from log index 17 to 17, cost 0 ms.
+
+2025-12-10 11:40:50,964 INFO The channel 192.168.0.80:7848 is in state: READY.
+
+2025-12-10 11:40:50,965 INFO The channel 192.168.0.80:7848 has successfully established.
+
+2025-12-10 11:40:50,968 INFO Save raft meta, path=/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=17, votedFor=192.168.0.80:7848, cost time=12 ms
+
+2025-12-10 11:40:50,968 INFO Node <naming_instance_metadata/192.168.0.80:7848> become leader of group, term=17, conf=192.168.0.80:7848, oldConf=.
+
+2025-12-10 11:40:50,968 WARN RPC server is not started in RaftGroupService.
+
+2025-12-10 11:40:50,968 INFO Start the RaftGroupService successfully.
+
+2025-12-10 11:40:50,972 INFO The number of active nodes increment to 4.
+
+2025-12-10 11:40:50,975 INFO onLeaderStart: term=17.
+
+2025-12-10 11:40:51,017 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/log from log index 0 to 17, cost 1 ms.
+
+2025-12-10 11:40:51,018 INFO Starts FSMCaller successfully.
+
+2025-12-10 11:40:51,020 INFO Loading snapshot, meta=last_included_index: 16
+last_included_term: 16
+peers: "192.168.0.80:7848"
+.
+
+2025-12-10 11:40:51,021 INFO Node <naming_service_metadata/192.168.0.80:7848> onSnapshotLoadDone, last_included_index: 16
+last_included_term: 16
+peers: "192.168.0.80:7848"
+
+
+2025-12-10 11:40:51,024 INFO Node <naming_service_metadata/192.168.0.80:7848> target priority value has changed from: 0, to: -1.
+
+2025-12-10 11:40:51,024 INFO Node <naming_service_metadata/192.168.0.80:7848> init ballot box's lastCommittedIndex=16.
+
+2025-12-10 11:40:51,029 INFO Node <naming_service_metadata/192.168.0.80:7848> init, term=16, lastLogId=LogId [index=16, term=16], conf=192.168.0.80:7848, oldConf=.
+
+2025-12-10 11:40:51,032 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/log from log index 17 to 17, cost 0 ms.
+
+2025-12-10 11:40:51,032 INFO Node <naming_service_metadata/192.168.0.80:7848> start vote and grant vote self, term=16.
+
+2025-12-10 11:40:51,045 INFO Save raft meta, path=/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/meta-data, term=17, votedFor=192.168.0.80:7848, cost time=13 ms
+
+2025-12-10 11:40:51,045 INFO Node <naming_service_metadata/192.168.0.80:7848> become leader of group, term=17, conf=192.168.0.80:7848, oldConf=.
+
+2025-12-10 11:40:51,045 WARN RPC server is not started in RaftGroupService.
+
+2025-12-10 11:40:51,045 INFO Start the RaftGroupService successfully.
+
+2025-12-10 11:40:51,055 INFO onLeaderStart: term=17.
+
+2025-12-10 11:40:51,132 INFO The number of active nodes increment to 5.
+
+2025-12-10 11:40:51,175 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 0 to 17, cost 1 ms.
+
+2025-12-10 11:40:51,176 INFO Starts FSMCaller successfully.
+
+2025-12-10 11:40:51,176 INFO Loading snapshot, meta=last_included_index: 16
+last_included_term: 16
+peers: "192.168.0.80:7848"
+.
+
+2025-12-10 11:40:51,180 INFO Node <lock_acquire_service_v2/192.168.0.80:7848> onSnapshotLoadDone, last_included_index: 16
+last_included_term: 16
+peers: "192.168.0.80:7848"
+
+
+2025-12-10 11:40:51,180 INFO Node <lock_acquire_service_v2/192.168.0.80:7848> target priority value has changed from: 0, to: -1.
+
+2025-12-10 11:40:51,185 INFO Node <lock_acquire_service_v2/192.168.0.80:7848> init ballot box's lastCommittedIndex=16.
+
+2025-12-10 11:40:51,186 INFO Node <lock_acquire_service_v2/192.168.0.80:7848> init, term=16, lastLogId=LogId [index=16, term=16], conf=192.168.0.80:7848, oldConf=.
+
+2025-12-10 11:40:51,189 INFO Node <lock_acquire_service_v2/192.168.0.80:7848> start vote and grant vote self, term=16.
+
+2025-12-10 11:40:51,192 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 17 to 17, cost 0 ms.
+
+2025-12-10 11:40:51,206 INFO Save raft meta, path=/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/meta-data, term=17, votedFor=192.168.0.80:7848, cost time=14 ms
+
+2025-12-10 11:40:51,207 INFO Node <lock_acquire_service_v2/192.168.0.80:7848> become leader of group, term=17, conf=192.168.0.80:7848, oldConf=.
+
+2025-12-10 11:40:51,207 WARN RPC server is not started in RaftGroupService.
+
+2025-12-10 11:40:51,207 INFO Start the RaftGroupService successfully.
+
+2025-12-10 11:40:51,214 INFO onLeaderStart: term=17.
+
+2025-12-10 11:57:41,711 INFO Deleting snapshot /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_17.
+
+2025-12-10 11:57:41,712 INFO Renaming /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/snapshot/temp to /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_17.
+
+2025-12-10 11:57:41,717 INFO Deleting snapshot /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_16.
+
+2025-12-10 11:57:41,743 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/log from log index 17 to 17, cost 0 ms.
+
+2025-12-10 11:59:23,375 INFO Deleting snapshot /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_17.
+
+2025-12-10 11:59:23,375 INFO Renaming /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/snapshot/temp to /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_17.
+
+2025-12-10 11:59:23,380 INFO Deleting snapshot /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_16.
+
+2025-12-10 11:59:23,389 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/log from log index 17 to 17, cost 1 ms.
+
+2025-12-10 11:59:35,110 INFO Deleting snapshot /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_17.
+
+2025-12-10 11:59:35,111 INFO Renaming /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/temp to /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_17.
+
+2025-12-10 11:59:35,114 INFO Deleting snapshot /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_16.
+
+2025-12-10 11:59:35,121 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 17 to 17, cost 0 ms.
+
+2025-12-10 12:06:02,713 INFO Deleting snapshot /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/snapshot/snapshot_17.
+
+2025-12-10 12:06:02,714 INFO Renaming /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/snapshot/temp to /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/snapshot/snapshot_17.
+
+2025-12-10 12:06:02,718 INFO Deleting snapshot /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/snapshot/snapshot_16.
+
+2025-12-10 12:06:02,729 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 17 to 17, cost 1 ms.
+
+2025-12-10 12:07:25,845 INFO Deleting snapshot /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_17.
+
+2025-12-10 12:07:25,847 INFO Renaming /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/snapshot/temp to /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_17.
+
+2025-12-10 12:07:25,854 INFO Deleting snapshot /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_16.
+
+2025-12-10 12:07:25,863 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/log from log index 17 to 17, cost 0 ms.
+
+2025-12-10 13:29:30,851 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/log from log index 17 to 18, cost 1 ms.
+
+2025-12-10 13:31:12,549 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/log from log index 17 to 18, cost 1 ms.
+
+2025-12-10 13:31:24,287 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 17 to 18, cost 0 ms.
+
+2025-12-10 13:37:51,876 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 17 to 18, cost 1 ms.
+
+2025-12-10 13:39:15,008 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/log from log index 17 to 18, cost 1 ms.
+
+2025-12-10 13:59:30,799 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 14:01:12,485 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/log from log index 18 to 18, cost 2 ms.
+
+2025-12-10 14:01:24,226 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 14:07:51,818 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 14:09:14,943 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 14:29:30,833 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 14:31:12,559 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 14:31:24,295 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 18 to 18, cost 1 ms.
+
+2025-12-10 14:37:51,900 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 14:39:15,032 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 14:59:30,871 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 15:01:12,556 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/log from log index 18 to 18, cost 1 ms.
+
+2025-12-10 15:01:24,292 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 15:07:51,896 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 15:09:15,029 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 15:29:30,867 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 15:31:12,562 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/log from log index 18 to 18, cost 1 ms.
+
+2025-12-10 15:31:24,295 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 15:37:51,897 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 18 to 18, cost 1 ms.
+
+2025-12-10 15:39:15,033 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/log from log index 18 to 18, cost 1 ms.
+
+2025-12-10 15:59:30,862 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 16:01:12,553 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/log from log index 18 to 18, cost 1 ms.
+
+2025-12-10 16:01:24,289 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 18 to 18, cost 1 ms.
+
+2025-12-10 16:07:51,899 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 16:09:15,035 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/log from log index 18 to 18, cost 1 ms.
+
+2025-12-10 16:29:30,873 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/log from log index 18 to 18, cost 1 ms.
+
+2025-12-10 16:31:12,545 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 16:31:24,282 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 16:37:51,906 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 18 to 18, cost 2 ms.
+
+2025-12-10 16:39:15,036 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/log from log index 18 to 18, cost 1 ms.
+
+2025-12-10 16:59:30,879 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/log from log index 18 to 18, cost 2 ms.
+
+2025-12-10 17:01:12,546 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/log from log index 18 to 18, cost 1 ms.
+
+2025-12-10 17:01:24,271 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 18 to 18, cost 1 ms.
+
+2025-12-10 17:07:51,972 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 17:09:15,114 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 17:29:30,961 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/log from log index 18 to 18, cost 1 ms.
+
+2025-12-10 17:31:12,632 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 17:31:24,367 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 17:37:51,987 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 18 to 18, cost 1 ms.
+
+2025-12-10 17:39:15,076 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 17:59:30,907 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/log from log index 18 to 18, cost 1 ms.
+
+2025-12-10 18:01:12,588 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/log from log index 18 to 18, cost 4 ms.
+
+2025-12-10 18:01:24,307 INFO Truncated prefix logs in data path: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 18 to 18, cost 0 ms.
+
+2025-12-10 18:06:37,878 INFO Node <lock_acquire_service_v2/192.168.0.80:7848> shutdown, currTerm=17 state=STATE_LEADER.
+
+2025-12-10 18:06:37,881 INFO Fail to find the next candidate, group lock_acquire_service_v2.
+
+2025-12-10 18:06:37,881 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2025-12-10 18:06:37,898 INFO Save raft meta, path=/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/meta-data, term=17, votedFor=192.168.0.80:7848, cost time=14 ms
+
+2025-12-10 18:06:37,898 INFO Shutting down FSMCaller...
+
+2025-12-10 18:06:37,898 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@76e51181[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2025-12-10 18:06:37,899 INFO onShutdown.
+
+2025-12-10 18:06:37,899 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@7180b25f[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2025-12-10 18:06:37,899 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<lock_acquire_service_v2/192.168.0.80:7848>'}.
+
+2025-12-10 18:06:37,899 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<lock_acquire_service_v2/192.168.0.80:7848>'}.
+
+2025-12-10 18:06:37,899 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<lock_acquire_service_v2/192.168.0.80:7848>'}.
+
+2025-12-10 18:06:37,899 INFO The number of active nodes decrement to 4.
+
+2025-12-10 18:06:37,899 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<lock_acquire_service_v2/192.168.0.80:7848>'}.
+
+2025-12-10 18:06:37,900 INFO Node <lock_acquire_service_v2/192.168.0.80:7848> shutdown, currTerm=17 state=STATE_SHUTTING.
+
+2025-12-10 18:06:37,900 INFO Stop the RaftGroupService successfully.
+
+2025-12-10 18:06:37,900 INFO Node <naming_service_metadata/192.168.0.80:7848> shutdown, currTerm=17 state=STATE_LEADER.
+
+2025-12-10 18:06:37,900 INFO Fail to find the next candidate, group naming_service_metadata.
+
+2025-12-10 18:06:37,900 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2025-12-10 18:06:37,911 INFO Save raft meta, path=/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/meta-data, term=17, votedFor=192.168.0.80:7848, cost time=10 ms
+
+2025-12-10 18:06:37,911 INFO Shutting down FSMCaller...
+
+2025-12-10 18:06:37,911 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@1e31e7e0[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2025-12-10 18:06:37,911 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@467924d8[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2025-12-10 18:06:37,911 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_service_metadata/192.168.0.80:7848>'}.
+
+2025-12-10 18:06:37,911 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_service_metadata/192.168.0.80:7848>'}.
+
+2025-12-10 18:06:37,911 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_service_metadata/192.168.0.80:7848>'}.
+
+2025-12-10 18:06:37,911 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_service_metadata/192.168.0.80:7848>'}.
+
+2025-12-10 18:06:37,911 INFO Node <naming_service_metadata/192.168.0.80:7848> shutdown, currTerm=17 state=STATE_SHUTTING.
+
+2025-12-10 18:06:37,911 INFO Stop the RaftGroupService successfully.
+
+2025-12-10 18:06:37,911 INFO Node <naming_persistent_service/192.168.0.80:7848> shutdown, currTerm=17 state=STATE_LEADER.
+
+2025-12-10 18:06:37,912 INFO Fail to find the next candidate, group naming_persistent_service.
+
+2025-12-10 18:06:37,912 INFO onShutdown.
+
+2025-12-10 18:06:37,912 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2025-12-10 18:06:37,912 INFO The number of active nodes decrement to 3.
+
+2025-12-10 18:06:37,924 INFO DB destroyed, the db path is: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/log.
+
+2025-12-10 18:06:37,925 INFO DB destroyed, the db path is: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_service_metadata/log.
+
+2025-12-10 18:06:37,928 INFO Save raft meta, path=/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/meta-data, term=17, votedFor=192.168.0.80:7848, cost time=16 ms
+
+2025-12-10 18:06:37,928 INFO Shutting down FSMCaller...
+
+2025-12-10 18:06:37,928 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@379cfc77[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2025-12-10 18:06:37,928 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@463a0302[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2025-12-10 18:06:37,928 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_persistent_service/192.168.0.80:7848>'}.
+
+2025-12-10 18:06:37,928 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_persistent_service/192.168.0.80:7848>'}.
+
+2025-12-10 18:06:37,928 INFO onShutdown.
+
+2025-12-10 18:06:37,928 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_persistent_service/192.168.0.80:7848>'}.
+
+2025-12-10 18:06:37,928 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_persistent_service/192.168.0.80:7848>'}.
+
+2025-12-10 18:06:37,928 INFO Node <naming_persistent_service/192.168.0.80:7848> shutdown, currTerm=17 state=STATE_SHUTTING.
+
+2025-12-10 18:06:37,928 INFO Stop the RaftGroupService successfully.
+
+2025-12-10 18:06:37,928 INFO Node <naming_instance_metadata/192.168.0.80:7848> shutdown, currTerm=17 state=STATE_LEADER.
+
+2025-12-10 18:06:37,929 INFO Fail to find the next candidate, group naming_instance_metadata.
+
+2025-12-10 18:06:37,929 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2025-12-10 18:06:37,929 INFO The number of active nodes decrement to 2.
+
+2025-12-10 18:06:37,931 INFO DB destroyed, the db path is: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service/log.
+
+2025-12-10 18:06:37,938 INFO Save raft meta, path=/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=17, votedFor=192.168.0.80:7848, cost time=9 ms
+
+2025-12-10 18:06:37,938 INFO Shutting down FSMCaller...
+
+2025-12-10 18:06:37,938 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@1c1bb1e7[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2025-12-10 18:06:37,938 INFO onShutdown.
+
+2025-12-10 18:06:37,938 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@2220780d[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2025-12-10 18:06:37,938 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_instance_metadata/192.168.0.80:7848>'}.
+
+2025-12-10 18:06:37,938 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_instance_metadata/192.168.0.80:7848>'}.
+
+2025-12-10 18:06:37,938 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_instance_metadata/192.168.0.80:7848>'}.
+
+2025-12-10 18:06:37,938 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_instance_metadata/192.168.0.80:7848>'}.
+
+2025-12-10 18:06:37,938 INFO Node <naming_instance_metadata/192.168.0.80:7848> shutdown, currTerm=17 state=STATE_SHUTTING.
+
+2025-12-10 18:06:37,938 INFO Stop the RaftGroupService successfully.
+
+2025-12-10 18:06:37,938 INFO Node <naming_persistent_service_v2/192.168.0.80:7848> shutdown, currTerm=17 state=STATE_LEADER.
+
+2025-12-10 18:06:37,938 INFO The number of active nodes decrement to 1.
+
+2025-12-10 18:06:37,939 INFO Fail to find the next candidate, group naming_persistent_service_v2.
+
+2025-12-10 18:06:37,939 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2025-12-10 18:06:37,944 INFO DB destroyed, the db path is: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_instance_metadata/log.
+
+2025-12-10 18:06:37,949 INFO Save raft meta, path=/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/meta-data, term=17, votedFor=192.168.0.80:7848, cost time=10 ms
+
+2025-12-10 18:06:37,949 INFO Shutting down FSMCaller...
+
+2025-12-10 18:06:37,949 INFO onShutdown.
+
+2025-12-10 18:06:37,949 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@16b48082[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2025-12-10 18:06:37,949 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@24a696c0[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2025-12-10 18:06:37,949 INFO The number of active nodes decrement to 0.
+
+2025-12-10 18:06:37,951 INFO ThreadPool is terminated: JRaft-Global-ElectionTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@60877629[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5].
+
+2025-12-10 18:06:37,951 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_persistent_service_v2/192.168.0.80:7848>'}.
+
+2025-12-10 18:06:37,951 INFO ThreadPool is terminated: JRaft-Global-VoteTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@404bca88[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5].
+
+2025-12-10 18:06:37,951 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_persistent_service_v2/192.168.0.80:7848>'}.
+
+2025-12-10 18:06:37,953 INFO ThreadPool is terminated: JRaft-Global-StepDownTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@d332ebc[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 38795].
+
+2025-12-10 18:06:37,976 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_persistent_service_v2/192.168.0.80:7848>'}.
+
+2025-12-10 18:06:37,978 INFO ThreadPool is terminated: JRaft-Global-SnapshotTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@6044311a[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 53].
+
+2025-12-10 18:06:37,978 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_persistent_service_v2/192.168.0.80:7848>'}.
+
+2025-12-10 18:06:37,978 INFO Node <naming_persistent_service_v2/192.168.0.80:7848> shutdown, currTerm=17 state=STATE_SHUTTING.
+
+2025-12-10 18:06:37,978 INFO Stop the RaftGroupService successfully.
+
+2025-12-10 18:06:37,978 INFO Shutdown managed channel: 192.168.0.80:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=10, target=192.168.0.80:7848}}.
+
+2025-12-10 18:06:37,981 INFO The channel 192.168.0.80:7848 is in state: SHUTDOWN.
+
+2025-12-10 18:06:37,981 WARN This channel 192.168.0.80:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2025-12-10 18:06:37,981 INFO DB destroyed, the db path is: /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/log.
+
+2025-12-10 18:06:37,991 INFO Connection disconnected: /192.168.0.80:57623
+
+2025-12-10 18:06:37,995 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@30b5225b[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 31234].
+

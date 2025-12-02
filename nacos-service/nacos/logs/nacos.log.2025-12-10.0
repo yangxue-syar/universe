@@ -1,0 +1,1976 @@
+2025-12-10 08:24:29,993 INFO Starting NacosBootstrap v3.1.0 using Java 21.0.8 with PID 90230 (/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/target/nacos-server.jar started by mac in /Users/mac/IdeaProjects/universe-film-and-television-community)
+
+2025-12-10 08:24:29,994 INFO The following 1 profile is active: "standalone"
+
+2025-12-10 08:24:30,076 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.config.server, filter com.alibaba.nacos.config.server.filter.ConfigEnabledFilter
+
+2025-12-10 08:24:30,076 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.naming, filter com.alibaba.nacos.naming.config.NamingEnabledFilter
+
+2025-12-10 08:24:30,076 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.ai, filter com.alibaba.nacos.ai.config.AiEnabledFilter
+
+2025-12-10 08:24:30,077 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.istio, filter com.alibaba.nacos.istio.config.IstioEnabledFilter
+
+2025-12-10 08:24:30,077 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.k8s.sync, filter com.alibaba.nacos.k8s.sync.K8sSyncEnabledFilter
+
+2025-12-10 08:24:30,164 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.bootstrap.NacosBootstrap to avoid duplicate scan
+
+2025-12-10 08:24:30,165 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.Nacos to avoid duplicate scan
+
+2025-12-10 08:24:30,166 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.console.NacosConsole to avoid duplicate scan
+
+2025-12-10 08:24:30,198 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.config.server.Config to avoid duplicate scan
+
+2025-12-10 08:24:30,271 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.naming.NamingApp to avoid duplicate scan
+
+2025-12-10 08:24:30,288 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.cmdb.CmdbApp to avoid duplicate scan
+
+2025-12-10 08:24:30,318 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.istio.IstioApp to avoid duplicate scan
+
+2025-12-10 08:24:30,318 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,319 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,319 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,319 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,319 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,319 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,319 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,319 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,319 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,320 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,320 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,320 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,320 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,320 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,320 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,320 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,320 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,320 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,320 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,320 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,321 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,321 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,321 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,321 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,321 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,321 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,321 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,321 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,321 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,321 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,321 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,321 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,321 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,321 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,322 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,322 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,322 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,322 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,322 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,322 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,322 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,322 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,322 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,322 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,322 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,322 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,322 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,322 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,322 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,323 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,323 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,323 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,323 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,323 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,323 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,323 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,323 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,323 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,323 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,323 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,323 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,324 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,324 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 08:24:30,548 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.prometheus.PrometheusApp to avoid duplicate scan
+
+2025-12-10 08:24:30,549 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2025-12-10 08:24:30,549 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2025-12-10 08:24:30,549 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2025-12-10 08:24:30,549 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2025-12-10 08:24:30,549 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2025-12-10 08:24:30,550 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2025-12-10 08:24:30,550 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2025-12-10 08:24:30,550 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.NacosServerWebApplication to avoid duplicate scan
+
+2025-12-10 08:24:30,550 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.mcpregistry.NacosMcpRegistry to avoid duplicate scan
+
+2025-12-10 08:24:30,996 INFO Nacos Server is starting...
+
+2025-12-10 08:24:31,496 INFO HikariPool-1 - Starting...
+
+2025-12-10 08:24:31,501 WARN Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+
+2025-12-10 08:24:31,622 INFO HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+
+2025-12-10 08:24:31,624 INFO HikariPool-1 - Start completed.
+
+2025-12-10 08:24:31,799 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.ConfigInfoBetaMapperByMySql) datasource(mysql) tableName(config_info_beta) successfully.
+
+2025-12-10 08:24:31,799 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.ConfigInfoMapperByMySql) datasource(mysql) tableName(config_info) successfully.
+
+2025-12-10 08:24:31,799 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.ConfigInfoTagMapperByMySql) datasource(mysql) tableName(config_info_tag) successfully.
+
+2025-12-10 08:24:31,799 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.ConfigInfoGrayMapperByMySql) datasource(mysql) tableName(config_info_gray) successfully.
+
+2025-12-10 08:24:31,799 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.ConfigTagsRelationMapperByMySql) datasource(mysql) tableName(config_tags_relation) successfully.
+
+2025-12-10 08:24:31,799 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.HistoryConfigInfoMapperByMySql) datasource(mysql) tableName(his_config_info) successfully.
+
+2025-12-10 08:24:31,799 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.TenantInfoMapperByMySql) datasource(mysql) tableName(tenant_info) successfully.
+
+2025-12-10 08:24:31,799 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.TenantCapacityMapperByMySql) datasource(mysql) tableName(tenant_capacity) successfully.
+
+2025-12-10 08:24:31,799 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.GroupCapacityMapperByMysql) datasource(mysql) tableName(group_capacity) successfully.
+
+2025-12-10 08:24:31,799 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.ConfigMigrateMapperByMysql) datasource(mysql) tableName(migrate_config) successfully.
+
+2025-12-10 08:24:31,799 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.ConfigInfoBetaMapperByDerby) datasource(derby) tableName(config_info_beta) successfully.
+
+2025-12-10 08:24:31,799 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.ConfigInfoMapperByDerby) datasource(derby) tableName(config_info) successfully.
+
+2025-12-10 08:24:31,799 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.ConfigInfoTagMapperByDerby) datasource(derby) tableName(config_info_tag) successfully.
+
+2025-12-10 08:24:31,799 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.ConfigInfoGrayMapperByDerby) datasource(derby) tableName(config_info_gray) successfully.
+
+2025-12-10 08:24:31,799 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.ConfigInfoTagsRelationMapperByDerby) datasource(derby) tableName(config_tags_relation) successfully.
+
+2025-12-10 08:24:31,799 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.HistoryConfigInfoMapperByDerby) datasource(derby) tableName(his_config_info) successfully.
+
+2025-12-10 08:24:31,799 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.TenantInfoMapperByDerby) datasource(derby) tableName(tenant_info) successfully.
+
+2025-12-10 08:24:31,799 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.TenantCapacityMapperByDerby) datasource(derby) tableName(tenant_capacity) successfully.
+
+2025-12-10 08:24:31,799 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.GroupCapacityMapperByDerby) datasource(derby) tableName(group_capacity) successfully.
+
+2025-12-10 08:24:31,799 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.ConfigMigrateMapperByDerby) datasource(derby) tableName(migrate_config) successfully.
+
+2025-12-10 08:24:31,849 INFO ConfigQueryHandlerChain has been initialized successfully with chain: nacos
+
+2025-12-10 08:24:31,979 INFO Nacos-related cluster resource initialization
+
+2025-12-10 08:24:31,983 INFO Load com.alibaba.nacos.core.ability.RemoteAbilityInitializer for ServerAbilityInitializer
+
+2025-12-10 08:24:31,983 INFO Load com.alibaba.nacos.naming.ability.NamingAbilityInitializer for ServerAbilityInitializer
+
+2025-12-10 08:24:31,985 INFO The cluster resource is initialized
+
+2025-12-10 08:24:31,998 INFO Nacos Server is starting...
+
+2025-12-10 08:24:32,054 INFO Get configCompatible config from env, ConfigCompatibleConfig{namespaceCompatibleMode=true}
+
+2025-12-10 08:24:32,105 INFO [migrate] start migrate config namespace
+
+2025-12-10 08:24:32,113 INFO [migrate] migrating config namespace from empty to public, finished:0
+
+2025-12-10 08:24:32,122 INFO [migrate] syncing config namespace from empty to public, finished:0
+
+2025-12-10 08:24:32,122 INFO [migrate] syncing config namespace from public to empty, finished:0
+
+2025-12-10 08:24:32,126 INFO [migrate] migrating config gray namespace from empty to public, finished:0
+
+2025-12-10 08:24:32,131 INFO [migrate] syncing config gray namespace from empty to public, finished:0
+
+2025-12-10 08:24:32,131 INFO [migrate] syncing config gray namespace from public to empty, finished:0
+
+2025-12-10 08:24:32,131 INFO [migrate] finish migrate config namespacetotal time taken: 77 ms
+
+2025-12-10 08:24:32,144 INFO Get historyConfigCleaner config from env, activeHistoryConfigCleaner{ activeHistoryConfigCleaner=nacos}
+
+2025-12-10 08:24:32,195 INFO Ready to get current node abilities...
+
+2025-12-10 08:24:32,197 INFO Ready to initialize current node abilities, support modes: [SERVER, CLUSTER_CLIENT, SDK_CLIENT]
+
+2025-12-10 08:24:32,197 INFO Initialize current abilities finish...
+
+2025-12-10 08:24:32,198 INFO Ready to get current node abilities...
+
+2025-12-10 08:24:32,198 INFO Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+
+2025-12-10 08:24:32,198 INFO Initialize current abilities finish...
+
+2025-12-10 08:24:32,199 INFO [AbilityControlManager] Successfully initialize AbilityControlManager
+
+2025-12-10 08:24:32,202 INFO Get NacosConsoleAuth config from env, NacosConsoleAuthConfig{authEnabled=true, nacosAuthSystemType='nacos'}
+
+2025-12-10 08:24:32,204 INFO Get NacosServerAdminAuth config from env, NacosServerAdminAuthConfig{authEnabled=true, nacosAuthSystemType='nacos', serverIdentityKey='serverIdentityKey', serverIdentityValue='serverIdentityValue'}
+
+2025-12-10 08:24:32,205 INFO Get NacosServerAuth config from env, NacosServerAuthConfig{authEnabled=false, nacosAuthSystemType='nacos', serverIdentityKey='serverIdentityKey', serverIdentityValue='serverIdentityValue', authPluginProperties={nacos={token.expire.seconds=18000, token.secret.key=VGhpc0lzQVZhbGlkU2VjcmV0S2V5Rm9yTmFjb3NBdXRoV2l0aDRwQ2hhcnM=, token.cache.enable=false}}}
+
+2025-12-10 08:24:32,207 INFO Not found ServerIdentityChecker implementation from SPI, use default.
+
+2025-12-10 08:24:32,999 INFO Nacos Server is starting...
+
+2025-12-10 08:24:33,559 INFO Creating McpCacheIndex bean with maxSize=10000, expireTime=3600s, cleanupInterval=300s
+
+2025-12-10 08:24:33,560 INFO Creating ScheduledExecutorService for MCP cache with syncInterval=300s
+
+2025-12-10 08:24:33,561 INFO Creating CachedMcpServerIndex bean with cache enabled
+
+2025-12-10 08:24:33,562 INFO Cache sync task started with interval: 300s
+
+2025-12-10 08:24:33,562 INFO CachedMcpServerIndex initialized with cacheEnabled=true, syncInterval=300s
+
+2025-12-10 08:24:33,811 WARN Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+
+2025-12-10 08:24:34,004 INFO Nacos Server is starting...
+
+2025-12-10 08:24:34,215 INFO Started NacosBootstrap in 4.802 seconds (process running for 5.184)
+
+2025-12-10 08:24:34,215 INFO Nacos started successfully in stand alone mode with embedded storage in 4793 ms
+
+2025-12-10 08:24:34,222 INFO Spring Environment's active profiles : [standalone] in standalone mode : true
+
+2025-12-10 08:24:34,240 INFO The following 1 profile is active: "standalone"
+
+2025-12-10 08:24:34,248 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.config.server, filter com.alibaba.nacos.config.server.filter.ConfigEnabledFilter
+
+2025-12-10 08:24:34,248 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.naming, filter com.alibaba.nacos.naming.config.NamingEnabledFilter
+
+2025-12-10 08:24:34,248 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.ai, filter com.alibaba.nacos.ai.config.AiEnabledFilter
+
+2025-12-10 08:24:34,248 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.istio, filter com.alibaba.nacos.istio.config.IstioEnabledFilter
+
+2025-12-10 08:24:34,248 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.k8s.sync, filter com.alibaba.nacos.k8s.sync.K8sSyncEnabledFilter
+
+2025-12-10 08:24:34,814 WARN Bean 'nacosWebBeanPostProcessorConfiguration' of type [com.alibaba.nacos.server.NacosWebBeanPostProcessorConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [nacosDuplicateSpringBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+
+2025-12-10 08:24:34,956 INFO Tomcat initialized with port 8848 (http)
+
+2025-12-10 08:24:34,967 INFO Starting service [Tomcat]
+
+2025-12-10 08:24:34,968 INFO Starting Servlet engine: [Apache Tomcat/10.1.44]
+
+2025-12-10 08:24:34,985 INFO Initializing Spring embedded WebApplicationContext
+
+2025-12-10 08:24:34,986 INFO Root WebApplicationContext: initialization completed in 743 ms
+
+2025-12-10 08:24:35,109 INFO Get ApiCompatibility config from env, ApiCompatibilityConfig{clientApiCompatibility=true, consoleApiCompatibility=false, adminApiCompatibility=false}
+
+2025-12-10 08:24:35,145 INFO Adding welcome page: class path resource [static/index.html]
+
+2025-12-10 08:24:35,240 INFO Nacos Server API is starting...
+
+2025-12-10 08:24:35,312 INFO Exposing 1 endpoint beneath base path '/actuator'
+
+2025-12-10 08:24:35,330 INFO Tomcat started on port 8848 (http) with context path '/nacos'
+
+2025-12-10 08:24:35,337 INFO Started NacosBootstrap in 1.119 seconds (process running for 6.306)
+
+2025-12-10 08:24:35,337 INFO Nacos Server API started successfully in 1119 ms
+
+2025-12-10 08:24:35,341 INFO Spring Environment's active profiles : [standalone] in standalone mode : true
+
+2025-12-10 08:24:35,354 INFO The following 1 profile is active: "standalone"
+
+2025-12-10 08:24:35,544 WARN Bean 'nacosConsoleBeanPostProcessorConfiguration' of type [com.alibaba.nacos.console.config.NacosConsoleBeanPostProcessorConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [nacosDuplicateSpringBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+
+2025-12-10 08:24:35,562 INFO Tomcat initialized with port 8080 (http)
+
+2025-12-10 08:24:35,562 INFO Starting service [Tomcat]
+
+2025-12-10 08:24:35,562 INFO Starting Servlet engine: [Apache Tomcat/10.1.44]
+
+2025-12-10 08:24:35,563 INFO Initializing Spring embedded WebApplicationContext
+
+2025-12-10 08:24:35,563 INFO Root WebApplicationContext: initialization completed in 208 ms
+
+2025-12-10 08:24:35,620 INFO Adding welcome page: class path resource [static/index.html]
+
+2025-12-10 08:24:35,696 INFO Exposing 1 endpoint beneath base path '/actuator'
+
+2025-12-10 08:24:35,702 INFO Tomcat started on port 8080 (http) with context path '/'
+
+2025-12-10 08:24:35,706 INFO Started NacosBootstrap in 0.366 seconds (process running for 6.675)
+
+2025-12-10 08:24:35,706 INFO Nacos Console started successfully in 366 ms
+
+2025-12-10 08:24:41,537 INFO Get NamespaceValidation config from env, NamespaceValidationConfig{namespaceValidationEnabled=false}
+
+2025-12-10 08:24:41,537 INFO Get ParamCheck config from env, ParamCheckConfig{paramCheckEnabled=true, activeParamChecker=default}
+
+2025-12-10 08:24:41,545 INFO Get Push config from env, PushConfig{pushTaskDelay=500, pushTaskTimeout=5000, pushTaskRetryDelay=1000}
+
+2025-12-10 08:24:41,546 INFO Get topN config from env, TopNConfig{enabled=true, topNCount=10, internalMs=0}
+
+2025-12-10 08:34:31,844 INFO [capacityManagement] start correct usage
+
+2025-12-10 08:34:31,866 INFO [capacityManagement] end correct usage, cost: 0.01819925s
+
+2025-12-10 08:34:32,148 WARN clearHistoryConfig get scheduled
+
+2025-12-10 08:34:32,149 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 08:34:32,153 WARN clearConfigHistory, getBeforeStamp:2025-11-10 08:34:32.0, pageSize:1000
+
+2025-12-10 08:34:32,201 WARN history config cleaner successfully
+
+2025-12-10 08:38:25,967 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s134ms).
+
+2025-12-10 08:40:49,773 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m23s807ms).
+
+2025-12-10 08:42:59,267 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m39s484ms).
+
+2025-12-10 08:47:59,270 INFO [capacityManagement] start correct usage
+
+2025-12-10 08:47:59,275 INFO [capacityManagement] end correct usage, cost: 0.004553917s
+
+2025-12-10 08:47:59,605 WARN clearHistoryConfig get scheduled
+
+2025-12-10 08:47:59,605 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 08:47:59,606 WARN clearConfigHistory, getBeforeStamp:2025-11-10 08:47:59.0, pageSize:1000
+
+2025-12-10 08:47:59,609 WARN history config cleaner successfully
+
+2025-12-10 08:57:59,278 INFO [capacityManagement] start correct usage
+
+2025-12-10 08:57:59,280 INFO [capacityManagement] end correct usage, cost: 9.52959E-4s
+
+2025-12-10 08:57:59,610 WARN clearHistoryConfig get scheduled
+
+2025-12-10 08:57:59,610 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 08:57:59,611 WARN clearConfigHistory, getBeforeStamp:2025-11-10 08:57:59.0, pageSize:1000
+
+2025-12-10 08:57:59,613 WARN history config cleaner successfully
+
+2025-12-10 09:07:59,285 INFO [capacityManagement] start correct usage
+
+2025-12-10 09:07:59,286 INFO [capacityManagement] end correct usage, cost: 9.06792E-4s
+
+2025-12-10 09:07:59,616 WARN clearHistoryConfig get scheduled
+
+2025-12-10 09:07:59,617 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 09:07:59,618 WARN clearConfigHistory, getBeforeStamp:2025-11-10 09:07:59.0, pageSize:1000
+
+2025-12-10 09:07:59,623 WARN history config cleaner successfully
+
+2025-12-10 09:17:59,292 INFO [capacityManagement] start correct usage
+
+2025-12-10 09:17:59,296 INFO [capacityManagement] end correct usage, cost: 0.0019235s
+
+2025-12-10 09:17:59,623 WARN clearHistoryConfig get scheduled
+
+2025-12-10 09:17:59,623 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 09:17:59,624 WARN clearConfigHistory, getBeforeStamp:2025-11-10 09:17:59.0, pageSize:1000
+
+2025-12-10 09:17:59,626 WARN history config cleaner successfully
+
+2025-12-10 09:27:59,245 INFO [capacityManagement] start correct usage
+
+2025-12-10 09:27:59,249 INFO [capacityManagement] end correct usage, cost: 0.002116334s
+
+2025-12-10 09:27:59,569 WARN clearHistoryConfig get scheduled
+
+2025-12-10 09:27:59,569 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 09:27:59,571 WARN clearConfigHistory, getBeforeStamp:2025-11-10 09:27:59.0, pageSize:1000
+
+2025-12-10 09:27:59,572 WARN history config cleaner successfully
+
+2025-12-10 09:37:59,248 INFO [capacityManagement] start correct usage
+
+2025-12-10 09:37:59,253 INFO [capacityManagement] end correct usage, cost: 0.003302s
+
+2025-12-10 09:37:59,571 WARN clearHistoryConfig get scheduled
+
+2025-12-10 09:37:59,572 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 09:37:59,573 WARN clearConfigHistory, getBeforeStamp:2025-11-10 09:37:59.0, pageSize:1000
+
+2025-12-10 09:37:59,576 WARN history config cleaner successfully
+
+2025-12-10 09:47:59,252 INFO [capacityManagement] start correct usage
+
+2025-12-10 09:47:59,254 INFO [capacityManagement] end correct usage, cost: 7.10167E-4s
+
+2025-12-10 09:47:59,574 WARN clearHistoryConfig get scheduled
+
+2025-12-10 09:47:59,574 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 09:47:59,575 WARN clearConfigHistory, getBeforeStamp:2025-11-10 09:47:59.0, pageSize:1000
+
+2025-12-10 09:47:59,577 WARN history config cleaner successfully
+
+2025-12-10 09:57:59,273 INFO [capacityManagement] start correct usage
+
+2025-12-10 09:57:59,274 INFO [capacityManagement] end correct usage, cost: 6.54042E-4s
+
+2025-12-10 09:57:59,596 WARN clearHistoryConfig get scheduled
+
+2025-12-10 09:57:59,598 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 09:57:59,598 WARN clearConfigHistory, getBeforeStamp:2025-11-10 09:57:59.0, pageSize:1000
+
+2025-12-10 09:57:59,599 WARN history config cleaner successfully
+
+2025-12-10 10:07:59,281 INFO [capacityManagement] start correct usage
+
+2025-12-10 10:07:59,284 INFO [capacityManagement] end correct usage, cost: 0.0019035s
+
+2025-12-10 10:07:59,603 WARN clearHistoryConfig get scheduled
+
+2025-12-10 10:07:59,603 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 10:07:59,604 WARN clearConfigHistory, getBeforeStamp:2025-11-10 10:07:59.0, pageSize:1000
+
+2025-12-10 10:07:59,608 WARN history config cleaner successfully
+
+2025-12-10 10:17:59,283 INFO [capacityManagement] start correct usage
+
+2025-12-10 10:17:59,285 INFO [capacityManagement] end correct usage, cost: 0.0016725s
+
+2025-12-10 10:17:59,606 WARN clearHistoryConfig get scheduled
+
+2025-12-10 10:17:59,606 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 10:17:59,608 WARN clearConfigHistory, getBeforeStamp:2025-11-10 10:17:59.0, pageSize:1000
+
+2025-12-10 10:17:59,614 WARN history config cleaner successfully
+
+2025-12-10 10:27:59,285 INFO [capacityManagement] start correct usage
+
+2025-12-10 10:27:59,288 INFO [capacityManagement] end correct usage, cost: 8.65542E-4s
+
+2025-12-10 10:27:59,614 WARN clearHistoryConfig get scheduled
+
+2025-12-10 10:27:59,614 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 10:27:59,614 WARN clearConfigHistory, getBeforeStamp:2025-11-10 10:27:59.0, pageSize:1000
+
+2025-12-10 10:27:59,616 WARN history config cleaner successfully
+
+2025-12-10 10:37:59,290 INFO [capacityManagement] start correct usage
+
+2025-12-10 10:37:59,293 INFO [capacityManagement] end correct usage, cost: 0.001187709s
+
+2025-12-10 10:37:59,617 WARN clearHistoryConfig get scheduled
+
+2025-12-10 10:37:59,617 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 10:37:59,620 WARN clearConfigHistory, getBeforeStamp:2025-11-10 10:37:59.0, pageSize:1000
+
+2025-12-10 10:37:59,622 WARN history config cleaner successfully
+
+2025-12-10 10:47:59,290 INFO [capacityManagement] start correct usage
+
+2025-12-10 10:47:59,295 INFO [capacityManagement] end correct usage, cost: 0.002235833s
+
+2025-12-10 10:47:59,622 WARN clearHistoryConfig get scheduled
+
+2025-12-10 10:47:59,622 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 10:47:59,624 WARN clearConfigHistory, getBeforeStamp:2025-11-10 10:47:59.0, pageSize:1000
+
+2025-12-10 10:47:59,632 WARN history config cleaner successfully
+
+2025-12-10 10:57:59,295 INFO [capacityManagement] start correct usage
+
+2025-12-10 10:57:59,298 INFO [capacityManagement] end correct usage, cost: 8.71209E-4s
+
+2025-12-10 10:57:59,629 WARN clearHistoryConfig get scheduled
+
+2025-12-10 10:57:59,629 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 10:57:59,629 WARN clearConfigHistory, getBeforeStamp:2025-11-10 10:57:59.0, pageSize:1000
+
+2025-12-10 10:57:59,631 WARN history config cleaner successfully
+
+2025-12-10 11:07:59,300 INFO [capacityManagement] start correct usage
+
+2025-12-10 11:07:59,305 INFO [capacityManagement] end correct usage, cost: 0.002432209s
+
+2025-12-10 11:07:59,630 WARN clearHistoryConfig get scheduled
+
+2025-12-10 11:07:59,630 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 11:07:59,631 WARN clearConfigHistory, getBeforeStamp:2025-11-10 11:07:59.0, pageSize:1000
+
+2025-12-10 11:07:59,634 WARN history config cleaner successfully
+
+2025-12-10 11:17:59,306 INFO [capacityManagement] start correct usage
+
+2025-12-10 11:17:59,310 INFO [capacityManagement] end correct usage, cost: 0.002381667s
+
+2025-12-10 11:17:59,636 WARN clearHistoryConfig get scheduled
+
+2025-12-10 11:17:59,637 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 11:17:59,639 WARN clearConfigHistory, getBeforeStamp:2025-11-10 11:17:59.0, pageSize:1000
+
+2025-12-10 11:17:59,644 WARN history config cleaner successfully
+
+2025-12-10 11:27:59,312 INFO [capacityManagement] start correct usage
+
+2025-12-10 11:27:59,315 INFO [capacityManagement] end correct usage, cost: 0.001207792s
+
+2025-12-10 11:27:59,646 WARN clearHistoryConfig get scheduled
+
+2025-12-10 11:27:59,646 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 11:27:59,648 WARN clearConfigHistory, getBeforeStamp:2025-11-10 11:27:59.0, pageSize:1000
+
+2025-12-10 11:27:59,655 WARN history config cleaner successfully
+
+2025-12-10 11:36:12,348 INFO [NotifyCenter] Start destroying Publisher
+
+2025-12-10 11:36:12,348 INFO [ThreadPoolManager] Start destroying ThreadPool
+
+2025-12-10 11:36:12,349 INFO [NotifyCenter] Completed destruction of Publisher
+
+2025-12-10 11:36:12,352 INFO [HttpClientBeanHolder] Start destroying common HttpClient
+
+2025-12-10 11:36:12,355 WARN [WatchFileCenter] start close
+
+2025-12-10 11:36:12,355 INFO [HttpClientBeanHolder] Completed destruction of HttpClient
+
+2025-12-10 11:36:12,355 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/conf
+
+2025-12-10 11:36:12,360 WARN [WatchFileCenter] already closed
+
+2025-12-10 11:36:12,360 INFO Commencing graceful shutdown. Waiting for active requests to complete
+
+2025-12-10 11:36:12,364 INFO Graceful shutdown complete
+
+2025-12-10 11:36:12,374 INFO Commencing graceful shutdown. Waiting for active requests to complete
+
+2025-12-10 11:36:12,377 INFO Graceful shutdown complete
+
+2025-12-10 11:40:47,783 INFO Starting NacosBootstrap v3.1.0 using Java 21.0.8 with PID 98535 (/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/target/nacos-server.jar started by mac in /Users/mac/IdeaProjects/universe-film-and-television-community)
+
+2025-12-10 11:40:47,783 INFO The following 1 profile is active: "standalone"
+
+2025-12-10 11:40:47,860 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.config.server, filter com.alibaba.nacos.config.server.filter.ConfigEnabledFilter
+
+2025-12-10 11:40:47,860 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.naming, filter com.alibaba.nacos.naming.config.NamingEnabledFilter
+
+2025-12-10 11:40:47,861 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.ai, filter com.alibaba.nacos.ai.config.AiEnabledFilter
+
+2025-12-10 11:40:47,861 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.istio, filter com.alibaba.nacos.istio.config.IstioEnabledFilter
+
+2025-12-10 11:40:47,861 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.k8s.sync, filter com.alibaba.nacos.k8s.sync.K8sSyncEnabledFilter
+
+2025-12-10 11:40:47,940 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.bootstrap.NacosBootstrap to avoid duplicate scan
+
+2025-12-10 11:40:47,941 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.Nacos to avoid duplicate scan
+
+2025-12-10 11:40:47,942 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.console.NacosConsole to avoid duplicate scan
+
+2025-12-10 11:40:47,975 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.config.server.Config to avoid duplicate scan
+
+2025-12-10 11:40:48,048 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.naming.NamingApp to avoid duplicate scan
+
+2025-12-10 11:40:48,066 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.cmdb.CmdbApp to avoid duplicate scan
+
+2025-12-10 11:40:48,101 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.istio.IstioApp to avoid duplicate scan
+
+2025-12-10 11:40:48,102 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,102 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,102 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,102 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,102 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,103 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,103 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,103 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,103 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,103 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,103 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,103 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,103 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,103 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,103 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,103 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,103 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,104 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,104 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,104 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,104 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,104 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,104 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,104 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,105 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,105 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,105 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,105 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,105 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,105 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,105 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,105 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,105 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,105 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,106 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,106 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,106 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,106 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,106 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,106 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,106 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,106 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,106 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,106 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,106 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,106 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,106 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,107 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,107 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,107 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,107 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,107 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,107 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,107 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,107 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,107 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,107 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,107 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,108 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,108 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,108 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,108 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,108 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 11:40:48,348 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.prometheus.PrometheusApp to avoid duplicate scan
+
+2025-12-10 11:40:48,349 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2025-12-10 11:40:48,349 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2025-12-10 11:40:48,349 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2025-12-10 11:40:48,349 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2025-12-10 11:40:48,349 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2025-12-10 11:40:48,350 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2025-12-10 11:40:48,350 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2025-12-10 11:40:48,350 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.NacosServerWebApplication to avoid duplicate scan
+
+2025-12-10 11:40:48,350 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.mcpregistry.NacosMcpRegistry to avoid duplicate scan
+
+2025-12-10 11:40:48,784 INFO Nacos Server is starting...
+
+2025-12-10 11:40:49,253 INFO HikariPool-1 - Starting...
+
+2025-12-10 11:40:49,257 WARN Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+
+2025-12-10 11:40:49,378 INFO HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+
+2025-12-10 11:40:49,379 INFO HikariPool-1 - Start completed.
+
+2025-12-10 11:40:49,547 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.ConfigInfoBetaMapperByMySql) datasource(mysql) tableName(config_info_beta) successfully.
+
+2025-12-10 11:40:49,547 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.ConfigInfoMapperByMySql) datasource(mysql) tableName(config_info) successfully.
+
+2025-12-10 11:40:49,547 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.ConfigInfoTagMapperByMySql) datasource(mysql) tableName(config_info_tag) successfully.
+
+2025-12-10 11:40:49,547 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.ConfigInfoGrayMapperByMySql) datasource(mysql) tableName(config_info_gray) successfully.
+
+2025-12-10 11:40:49,547 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.ConfigTagsRelationMapperByMySql) datasource(mysql) tableName(config_tags_relation) successfully.
+
+2025-12-10 11:40:49,547 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.HistoryConfigInfoMapperByMySql) datasource(mysql) tableName(his_config_info) successfully.
+
+2025-12-10 11:40:49,547 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.TenantInfoMapperByMySql) datasource(mysql) tableName(tenant_info) successfully.
+
+2025-12-10 11:40:49,547 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.TenantCapacityMapperByMySql) datasource(mysql) tableName(tenant_capacity) successfully.
+
+2025-12-10 11:40:49,547 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.GroupCapacityMapperByMysql) datasource(mysql) tableName(group_capacity) successfully.
+
+2025-12-10 11:40:49,547 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.ConfigMigrateMapperByMysql) datasource(mysql) tableName(migrate_config) successfully.
+
+2025-12-10 11:40:49,547 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.ConfigInfoBetaMapperByDerby) datasource(derby) tableName(config_info_beta) successfully.
+
+2025-12-10 11:40:49,547 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.ConfigInfoMapperByDerby) datasource(derby) tableName(config_info) successfully.
+
+2025-12-10 11:40:49,547 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.ConfigInfoTagMapperByDerby) datasource(derby) tableName(config_info_tag) successfully.
+
+2025-12-10 11:40:49,547 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.ConfigInfoGrayMapperByDerby) datasource(derby) tableName(config_info_gray) successfully.
+
+2025-12-10 11:40:49,547 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.ConfigInfoTagsRelationMapperByDerby) datasource(derby) tableName(config_tags_relation) successfully.
+
+2025-12-10 11:40:49,547 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.HistoryConfigInfoMapperByDerby) datasource(derby) tableName(his_config_info) successfully.
+
+2025-12-10 11:40:49,547 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.TenantInfoMapperByDerby) datasource(derby) tableName(tenant_info) successfully.
+
+2025-12-10 11:40:49,547 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.TenantCapacityMapperByDerby) datasource(derby) tableName(tenant_capacity) successfully.
+
+2025-12-10 11:40:49,547 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.GroupCapacityMapperByDerby) datasource(derby) tableName(group_capacity) successfully.
+
+2025-12-10 11:40:49,547 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.ConfigMigrateMapperByDerby) datasource(derby) tableName(migrate_config) successfully.
+
+2025-12-10 11:40:49,594 INFO ConfigQueryHandlerChain has been initialized successfully with chain: nacos
+
+2025-12-10 11:40:49,716 INFO Nacos-related cluster resource initialization
+
+2025-12-10 11:40:49,719 INFO Load com.alibaba.nacos.core.ability.RemoteAbilityInitializer for ServerAbilityInitializer
+
+2025-12-10 11:40:49,719 INFO Load com.alibaba.nacos.naming.ability.NamingAbilityInitializer for ServerAbilityInitializer
+
+2025-12-10 11:40:49,720 INFO The cluster resource is initialized
+
+2025-12-10 11:40:49,785 INFO Nacos Server is starting...
+
+2025-12-10 11:40:49,785 INFO Get configCompatible config from env, ConfigCompatibleConfig{namespaceCompatibleMode=true}
+
+2025-12-10 11:40:49,833 INFO [migrate] start migrate config namespace
+
+2025-12-10 11:40:49,840 INFO [migrate] migrating config namespace from empty to public, finished:0
+
+2025-12-10 11:40:49,847 INFO [migrate] syncing config namespace from empty to public, finished:0
+
+2025-12-10 11:40:49,847 INFO [migrate] syncing config namespace from public to empty, finished:0
+
+2025-12-10 11:40:49,851 INFO [migrate] migrating config gray namespace from empty to public, finished:0
+
+2025-12-10 11:40:49,854 INFO [migrate] syncing config gray namespace from empty to public, finished:0
+
+2025-12-10 11:40:49,855 INFO [migrate] syncing config gray namespace from public to empty, finished:0
+
+2025-12-10 11:40:49,855 INFO [migrate] finish migrate config namespacetotal time taken: 70 ms
+
+2025-12-10 11:40:49,865 INFO Get historyConfigCleaner config from env, activeHistoryConfigCleaner{ activeHistoryConfigCleaner=nacos}
+
+2025-12-10 11:40:49,911 INFO Ready to get current node abilities...
+
+2025-12-10 11:40:49,913 INFO Ready to initialize current node abilities, support modes: [CLUSTER_CLIENT, SDK_CLIENT, SERVER]
+
+2025-12-10 11:40:49,913 INFO Initialize current abilities finish...
+
+2025-12-10 11:40:49,914 INFO Ready to get current node abilities...
+
+2025-12-10 11:40:49,914 INFO Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+
+2025-12-10 11:40:49,914 INFO Initialize current abilities finish...
+
+2025-12-10 11:40:49,915 INFO [AbilityControlManager] Successfully initialize AbilityControlManager
+
+2025-12-10 11:40:49,918 INFO Get NacosConsoleAuth config from env, NacosConsoleAuthConfig{authEnabled=true, nacosAuthSystemType='nacos'}
+
+2025-12-10 11:40:49,919 INFO Get NacosServerAdminAuth config from env, NacosServerAdminAuthConfig{authEnabled=true, nacosAuthSystemType='nacos', serverIdentityKey='serverIdentityKey', serverIdentityValue='serverIdentityValue'}
+
+2025-12-10 11:40:49,921 INFO Get NacosServerAuth config from env, NacosServerAuthConfig{authEnabled=false, nacosAuthSystemType='nacos', serverIdentityKey='serverIdentityKey', serverIdentityValue='serverIdentityValue', authPluginProperties={nacos={token.expire.seconds=18000, token.secret.key=VGhpc0lzQVZhbGlkU2VjcmV0S2V5Rm9yTmFjb3NBdXRoV2l0aDRwQ2hhcnM=, token.cache.enable=false}}}
+
+2025-12-10 11:40:49,923 INFO Not found ServerIdentityChecker implementation from SPI, use default.
+
+2025-12-10 11:40:50,790 INFO Nacos Server is starting...
+
+2025-12-10 11:40:51,110 INFO Creating McpCacheIndex bean with maxSize=10000, expireTime=3600s, cleanupInterval=300s
+
+2025-12-10 11:40:51,112 INFO Creating ScheduledExecutorService for MCP cache with syncInterval=300s
+
+2025-12-10 11:40:51,113 INFO Creating CachedMcpServerIndex bean with cache enabled
+
+2025-12-10 11:40:51,114 INFO Cache sync task started with interval: 300s
+
+2025-12-10 11:40:51,114 INFO CachedMcpServerIndex initialized with cacheEnabled=true, syncInterval=300s
+
+2025-12-10 11:40:51,366 WARN Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+
+2025-12-10 11:40:51,778 INFO Started NacosBootstrap in 4.562 seconds (process running for 4.952)
+
+2025-12-10 11:40:51,778 INFO Nacos started successfully in stand alone mode with embedded storage in 4552 ms
+
+2025-12-10 11:40:51,786 INFO Spring Environment's active profiles : [standalone] in standalone mode : true
+
+2025-12-10 11:40:51,806 INFO The following 1 profile is active: "standalone"
+
+2025-12-10 11:40:51,813 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.config.server, filter com.alibaba.nacos.config.server.filter.ConfigEnabledFilter
+
+2025-12-10 11:40:51,813 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.naming, filter com.alibaba.nacos.naming.config.NamingEnabledFilter
+
+2025-12-10 11:40:51,813 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.ai, filter com.alibaba.nacos.ai.config.AiEnabledFilter
+
+2025-12-10 11:40:51,813 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.istio, filter com.alibaba.nacos.istio.config.IstioEnabledFilter
+
+2025-12-10 11:40:51,813 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.k8s.sync, filter com.alibaba.nacos.k8s.sync.K8sSyncEnabledFilter
+
+2025-12-10 11:40:52,420 WARN Bean 'nacosWebBeanPostProcessorConfiguration' of type [com.alibaba.nacos.server.NacosWebBeanPostProcessorConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [nacosDuplicateSpringBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+
+2025-12-10 11:40:52,563 INFO Tomcat initialized with port 8848 (http)
+
+2025-12-10 11:40:52,574 INFO Starting service [Tomcat]
+
+2025-12-10 11:40:52,574 INFO Starting Servlet engine: [Apache Tomcat/10.1.44]
+
+2025-12-10 11:40:52,592 INFO Initializing Spring embedded WebApplicationContext
+
+2025-12-10 11:40:52,592 INFO Root WebApplicationContext: initialization completed in 783 ms
+
+2025-12-10 11:40:52,699 INFO Get ApiCompatibility config from env, ApiCompatibilityConfig{clientApiCompatibility=true, consoleApiCompatibility=false, adminApiCompatibility=false}
+
+2025-12-10 11:40:52,737 INFO Adding welcome page: class path resource [static/index.html]
+
+2025-12-10 11:40:52,811 INFO Nacos Server API is starting...
+
+2025-12-10 11:40:52,905 INFO Exposing 1 endpoint beneath base path '/actuator'
+
+2025-12-10 11:40:52,926 INFO Tomcat started on port 8848 (http) with context path '/nacos'
+
+2025-12-10 11:40:52,933 INFO Started NacosBootstrap in 1.152 seconds (process running for 6.108)
+
+2025-12-10 11:40:52,933 INFO Nacos Server API started successfully in 1152 ms
+
+2025-12-10 11:40:52,937 INFO Spring Environment's active profiles : [standalone] in standalone mode : true
+
+2025-12-10 11:40:52,950 INFO The following 1 profile is active: "standalone"
+
+2025-12-10 11:40:53,144 WARN Bean 'nacosConsoleBeanPostProcessorConfiguration' of type [com.alibaba.nacos.console.config.NacosConsoleBeanPostProcessorConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [nacosDuplicateSpringBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+
+2025-12-10 11:40:53,162 INFO Tomcat initialized with port 8080 (http)
+
+2025-12-10 11:40:53,163 INFO Starting service [Tomcat]
+
+2025-12-10 11:40:53,163 INFO Starting Servlet engine: [Apache Tomcat/10.1.44]
+
+2025-12-10 11:40:53,164 INFO Initializing Spring embedded WebApplicationContext
+
+2025-12-10 11:40:53,164 INFO Root WebApplicationContext: initialization completed in 213 ms
+
+2025-12-10 11:40:53,227 INFO Adding welcome page: class path resource [static/index.html]
+
+2025-12-10 11:40:53,317 INFO Exposing 1 endpoint beneath base path '/actuator'
+
+2025-12-10 11:40:53,324 INFO Tomcat started on port 8080 (http) with context path '/'
+
+2025-12-10 11:40:53,328 INFO Started NacosBootstrap in 0.391 seconds (process running for 6.502)
+
+2025-12-10 11:40:53,328 INFO Nacos Console started successfully in 391 ms
+
+2025-12-10 11:41:00,007 INFO Get topN config from env, TopNConfig{enabled=true, topNCount=10, internalMs=0}
+
+2025-12-10 11:41:02,883 INFO Get NamespaceValidation config from env, NamespaceValidationConfig{namespaceValidationEnabled=false}
+
+2025-12-10 11:41:02,883 INFO Get ParamCheck config from env, ParamCheckConfig{paramCheckEnabled=true, activeParamChecker=default}
+
+2025-12-10 11:41:02,891 INFO Get Push config from env, PushConfig{pushTaskDelay=500, pushTaskTimeout=5000, pushTaskRetryDelay=1000}
+
+2025-12-10 11:50:49,613 INFO [capacityManagement] start correct usage
+
+2025-12-10 11:50:49,633 INFO [capacityManagement] end correct usage, cost: 0.015848125s
+
+2025-12-10 11:50:49,893 WARN clearHistoryConfig get scheduled
+
+2025-12-10 11:50:49,893 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 11:50:49,897 WARN clearConfigHistory, getBeforeStamp:2025-11-10 11:50:49.0, pageSize:1000
+
+2025-12-10 11:50:49,952 WARN history config cleaner successfully
+
+2025-12-10 12:00:49,637 INFO [capacityManagement] start correct usage
+
+2025-12-10 12:00:49,641 INFO [capacityManagement] end correct usage, cost: 0.001463792s
+
+2025-12-10 12:00:49,956 WARN clearHistoryConfig get scheduled
+
+2025-12-10 12:00:49,956 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 12:00:49,957 WARN clearConfigHistory, getBeforeStamp:2025-11-10 12:00:49.0, pageSize:1000
+
+2025-12-10 12:00:49,960 WARN history config cleaner successfully
+
+2025-12-10 12:10:29,376 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m9s628ms).
+
+2025-12-10 12:26:24,323 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s948ms).
+
+2025-12-10 12:42:19,273 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s950ms).
+
+2025-12-10 12:44:04,003 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m44s730ms).
+
+2025-12-10 13:11:44,361 INFO [capacityManagement] start correct usage
+
+2025-12-10 13:11:44,366 INFO [capacityManagement] end correct usage, cost: 0.002296667s
+
+2025-12-10 13:11:44,513 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m40s510ms).
+
+2025-12-10 13:11:44,676 WARN clearHistoryConfig get scheduled
+
+2025-12-10 13:11:44,676 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 13:11:44,677 WARN clearConfigHistory, getBeforeStamp:2025-11-10 13:11:44.0, pageSize:1000
+
+2025-12-10 13:11:44,679 WARN history config cleaner successfully
+
+2025-12-10 13:18:09,071 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m24s524ms).
+
+2025-12-10 13:22:38,885 INFO [capacityManagement] start correct usage
+
+2025-12-10 13:22:38,890 INFO [capacityManagement] end correct usage, cost: 0.001945667s
+
+2025-12-10 13:22:39,201 WARN clearHistoryConfig get scheduled
+
+2025-12-10 13:22:39,201 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 13:22:39,203 WARN clearConfigHistory, getBeforeStamp:2025-11-10 13:22:39.0, pageSize:1000
+
+2025-12-10 13:22:39,209 WARN history config cleaner successfully
+
+2025-12-10 13:32:38,840 INFO [capacityManagement] start correct usage
+
+2025-12-10 13:32:38,842 INFO [capacityManagement] end correct usage, cost: 6.18625E-4s
+
+2025-12-10 13:32:39,157 WARN clearHistoryConfig get scheduled
+
+2025-12-10 13:32:39,157 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 13:32:39,159 WARN clearConfigHistory, getBeforeStamp:2025-11-10 13:32:39.0, pageSize:1000
+
+2025-12-10 13:32:39,166 WARN history config cleaner successfully
+
+2025-12-10 13:42:38,840 INFO [capacityManagement] start correct usage
+
+2025-12-10 13:42:38,849 INFO [capacityManagement] end correct usage, cost: 0.005597583s
+
+2025-12-10 13:42:39,160 WARN clearHistoryConfig get scheduled
+
+2025-12-10 13:42:39,161 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 13:42:39,164 WARN clearConfigHistory, getBeforeStamp:2025-11-10 13:42:39.0, pageSize:1000
+
+2025-12-10 13:42:39,167 WARN history config cleaner successfully
+
+2025-12-10 13:52:38,812 INFO [capacityManagement] start correct usage
+
+2025-12-10 13:52:38,814 INFO [capacityManagement] end correct usage, cost: 0.0016325s
+
+2025-12-10 13:52:39,129 WARN clearHistoryConfig get scheduled
+
+2025-12-10 13:52:39,129 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 13:52:39,131 WARN clearConfigHistory, getBeforeStamp:2025-11-10 13:52:39.0, pageSize:1000
+
+2025-12-10 13:52:39,135 WARN history config cleaner successfully
+
+2025-12-10 14:02:38,804 INFO [capacityManagement] start correct usage
+
+2025-12-10 14:02:38,806 INFO [capacityManagement] end correct usage, cost: 0.001070584s
+
+2025-12-10 14:02:39,125 WARN clearHistoryConfig get scheduled
+
+2025-12-10 14:02:39,126 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 14:02:39,129 WARN clearConfigHistory, getBeforeStamp:2025-11-10 14:02:39.0, pageSize:1000
+
+2025-12-10 14:02:39,133 WARN history config cleaner successfully
+
+2025-12-10 14:12:38,798 INFO [capacityManagement] start correct usage
+
+2025-12-10 14:12:38,801 INFO [capacityManagement] end correct usage, cost: 0.001373375s
+
+2025-12-10 14:12:39,123 WARN clearHistoryConfig get scheduled
+
+2025-12-10 14:12:39,123 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 14:12:39,124 WARN clearConfigHistory, getBeforeStamp:2025-11-10 14:12:39.0, pageSize:1000
+
+2025-12-10 14:12:39,134 WARN history config cleaner successfully
+
+2025-12-10 14:22:38,864 INFO [capacityManagement] start correct usage
+
+2025-12-10 14:22:38,867 INFO [capacityManagement] end correct usage, cost: 0.001210416s
+
+2025-12-10 14:22:39,196 WARN clearHistoryConfig get scheduled
+
+2025-12-10 14:22:39,197 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 14:22:39,199 WARN clearConfigHistory, getBeforeStamp:2025-11-10 14:22:39.0, pageSize:1000
+
+2025-12-10 14:22:39,205 WARN history config cleaner successfully
+
+2025-12-10 14:32:38,898 INFO [capacityManagement] start correct usage
+
+2025-12-10 14:32:38,899 INFO [capacityManagement] end correct usage, cost: 5.50333E-4s
+
+2025-12-10 14:32:39,239 WARN clearHistoryConfig get scheduled
+
+2025-12-10 14:32:39,239 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 14:32:39,240 WARN clearConfigHistory, getBeforeStamp:2025-11-10 14:32:39.0, pageSize:1000
+
+2025-12-10 14:32:39,241 WARN history config cleaner successfully
+
+2025-12-10 14:42:38,902 INFO [capacityManagement] start correct usage
+
+2025-12-10 14:42:38,904 INFO [capacityManagement] end correct usage, cost: 0.0012865s
+
+2025-12-10 14:42:39,241 WARN clearHistoryConfig get scheduled
+
+2025-12-10 14:42:39,241 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 14:42:39,243 WARN clearConfigHistory, getBeforeStamp:2025-11-10 14:42:39.0, pageSize:1000
+
+2025-12-10 14:42:39,251 WARN history config cleaner successfully
+
+2025-12-10 14:52:38,907 INFO [capacityManagement] start correct usage
+
+2025-12-10 14:52:38,910 INFO [capacityManagement] end correct usage, cost: 0.001454958s
+
+2025-12-10 14:52:39,250 WARN clearHistoryConfig get scheduled
+
+2025-12-10 14:52:39,251 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 14:52:39,253 WARN clearConfigHistory, getBeforeStamp:2025-11-10 14:52:39.0, pageSize:1000
+
+2025-12-10 14:52:39,258 WARN history config cleaner successfully
+
+2025-12-10 15:02:38,911 INFO [capacityManagement] start correct usage
+
+2025-12-10 15:02:38,914 INFO [capacityManagement] end correct usage, cost: 0.001494792s
+
+2025-12-10 15:02:39,259 WARN clearHistoryConfig get scheduled
+
+2025-12-10 15:02:39,259 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 15:02:39,260 WARN clearConfigHistory, getBeforeStamp:2025-11-10 15:02:39.0, pageSize:1000
+
+2025-12-10 15:02:39,264 WARN history config cleaner successfully
+
+2025-12-10 15:12:38,913 INFO [capacityManagement] start correct usage
+
+2025-12-10 15:12:38,916 INFO [capacityManagement] end correct usage, cost: 0.001088083s
+
+2025-12-10 15:12:39,264 WARN clearHistoryConfig get scheduled
+
+2025-12-10 15:12:39,265 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 15:12:39,268 WARN clearConfigHistory, getBeforeStamp:2025-11-10 15:12:39.0, pageSize:1000
+
+2025-12-10 15:12:39,272 WARN history config cleaner successfully
+
+2025-12-10 15:22:38,918 INFO [capacityManagement] start correct usage
+
+2025-12-10 15:22:38,920 INFO [capacityManagement] end correct usage, cost: 0.001249125s
+
+2025-12-10 15:22:39,274 WARN clearHistoryConfig get scheduled
+
+2025-12-10 15:22:39,277 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 15:22:39,279 WARN clearConfigHistory, getBeforeStamp:2025-11-10 15:22:39.0, pageSize:1000
+
+2025-12-10 15:22:39,284 WARN history config cleaner successfully
+
+2025-12-10 15:32:38,923 INFO [capacityManagement] start correct usage
+
+2025-12-10 15:32:38,927 INFO [capacityManagement] end correct usage, cost: 0.002905s
+
+2025-12-10 15:32:39,283 WARN clearHistoryConfig get scheduled
+
+2025-12-10 15:32:39,284 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 15:32:39,289 WARN clearConfigHistory, getBeforeStamp:2025-11-10 15:32:39.0, pageSize:1000
+
+2025-12-10 15:32:39,295 WARN history config cleaner successfully
+
+2025-12-10 15:42:38,930 INFO [capacityManagement] start correct usage
+
+2025-12-10 15:42:38,934 INFO [capacityManagement] end correct usage, cost: 0.002609209s
+
+2025-12-10 15:42:39,298 WARN clearHistoryConfig get scheduled
+
+2025-12-10 15:42:39,298 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 15:42:39,300 WARN clearConfigHistory, getBeforeStamp:2025-11-10 15:42:39.0, pageSize:1000
+
+2025-12-10 15:42:39,303 WARN history config cleaner successfully
+
+2025-12-10 15:52:38,936 INFO [capacityManagement] start correct usage
+
+2025-12-10 15:52:38,938 INFO [capacityManagement] end correct usage, cost: 7.82916E-4s
+
+2025-12-10 15:52:39,304 WARN clearHistoryConfig get scheduled
+
+2025-12-10 15:52:39,304 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 15:52:39,306 WARN clearConfigHistory, getBeforeStamp:2025-11-10 15:52:39.0, pageSize:1000
+
+2025-12-10 15:52:39,311 WARN history config cleaner successfully
+
+2025-12-10 16:02:38,941 INFO [capacityManagement] start correct usage
+
+2025-12-10 16:02:38,945 INFO [capacityManagement] end correct usage, cost: 0.002064834s
+
+2025-12-10 16:02:39,314 WARN clearHistoryConfig get scheduled
+
+2025-12-10 16:02:39,315 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 16:02:39,317 WARN clearConfigHistory, getBeforeStamp:2025-11-10 16:02:39.0, pageSize:1000
+
+2025-12-10 16:02:39,324 WARN history config cleaner successfully
+
+2025-12-10 16:12:38,945 INFO [capacityManagement] start correct usage
+
+2025-12-10 16:12:38,946 INFO [capacityManagement] end correct usage, cost: 0.001069625s
+
+2025-12-10 16:12:39,327 WARN clearHistoryConfig get scheduled
+
+2025-12-10 16:12:39,328 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 16:12:39,330 WARN clearConfigHistory, getBeforeStamp:2025-11-10 16:12:39.0, pageSize:1000
+
+2025-12-10 16:12:39,336 WARN history config cleaner successfully
+
+2025-12-10 16:22:38,949 INFO [capacityManagement] start correct usage
+
+2025-12-10 16:22:38,951 INFO [capacityManagement] end correct usage, cost: 0.001882875s
+
+2025-12-10 16:22:39,338 WARN clearHistoryConfig get scheduled
+
+2025-12-10 16:22:39,338 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 16:22:39,340 WARN clearConfigHistory, getBeforeStamp:2025-11-10 16:22:39.0, pageSize:1000
+
+2025-12-10 16:22:39,344 WARN history config cleaner successfully
+
+2025-12-10 16:26:28,149 INFO Starting NacosBootstrap v3.1.0 using Java 21.0.8 with PID 13133 (/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/target/nacos-server.jar started by mac in /Users/mac/IdeaProjects/universe-film-and-television-community)
+
+2025-12-10 16:26:28,151 INFO The following 1 profile is active: "standalone"
+
+2025-12-10 16:26:28,315 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.config.server, filter com.alibaba.nacos.config.server.filter.ConfigEnabledFilter
+
+2025-12-10 16:26:28,315 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.naming, filter com.alibaba.nacos.naming.config.NamingEnabledFilter
+
+2025-12-10 16:26:28,315 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.ai, filter com.alibaba.nacos.ai.config.AiEnabledFilter
+
+2025-12-10 16:26:28,315 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.istio, filter com.alibaba.nacos.istio.config.IstioEnabledFilter
+
+2025-12-10 16:26:28,315 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.k8s.sync, filter com.alibaba.nacos.k8s.sync.K8sSyncEnabledFilter
+
+2025-12-10 16:26:28,444 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.bootstrap.NacosBootstrap to avoid duplicate scan
+
+2025-12-10 16:26:28,446 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.Nacos to avoid duplicate scan
+
+2025-12-10 16:26:28,446 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.console.NacosConsole to avoid duplicate scan
+
+2025-12-10 16:26:28,509 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.config.server.Config to avoid duplicate scan
+
+2025-12-10 16:26:28,614 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.naming.NamingApp to avoid duplicate scan
+
+2025-12-10 16:26:28,638 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.cmdb.CmdbApp to avoid duplicate scan
+
+2025-12-10 16:26:28,696 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.istio.IstioApp to avoid duplicate scan
+
+2025-12-10 16:26:28,697 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,697 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,697 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,698 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,698 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,698 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,698 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,698 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,698 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,698 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,698 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,698 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,699 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,699 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,699 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,699 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,699 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,699 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,699 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,699 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,699 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,700 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,700 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,700 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,700 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,700 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,700 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,700 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,700 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,700 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,700 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,701 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,701 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,701 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,701 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,701 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,701 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,701 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,701 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,701 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,701 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,701 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,701 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,702 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,702 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,702 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,702 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,702 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,702 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,702 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,702 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,702 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,703 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,703 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,703 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,703 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,703 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,703 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,703 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,703 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,704 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,704 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:28,704 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-12-10 16:26:29,049 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.prometheus.PrometheusApp to avoid duplicate scan
+
+2025-12-10 16:26:29,050 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2025-12-10 16:26:29,050 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2025-12-10 16:26:29,050 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2025-12-10 16:26:29,050 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2025-12-10 16:26:29,050 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2025-12-10 16:26:29,051 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2025-12-10 16:26:29,051 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2025-12-10 16:26:29,051 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.NacosServerWebApplication to avoid duplicate scan
+
+2025-12-10 16:26:29,052 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.mcpregistry.NacosMcpRegistry to avoid duplicate scan
+
+2025-12-10 16:26:29,149 INFO Nacos Server is starting...
+
+2025-12-10 16:26:30,150 INFO Nacos Server is starting...
+
+2025-12-10 16:26:30,200 INFO HikariPool-1 - Starting...
+
+2025-12-10 16:26:30,205 WARN Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+
+2025-12-10 16:26:31,156 INFO Nacos Server is starting...
+
+2025-12-10 16:26:31,249 ERROR HikariPool-1 - Exception during pool initialization.
+
+java.sql.SQLException: Failed to start database '/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/derby-data' with class loader org.springframework.boot.loader.launch.LaunchedClassLoader@7106e68e, see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.derby.iapi.error.StandardException: Failed to start database '/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/derby-data' with class loader org.springframework.boot.loader.launch.LaunchedClassLoader@7106e68e, see the next exception for details.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 15 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Another instance of Derby may have already booted the database /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/derby-data.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.impl.store.raw.RawStore.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.impl.store.access.RAMAccessManager.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.impl.db.BasicDatabase.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.impl.jdbc.EmbedConnection.startPersistentService(Unknown Source)
+	... 12 common frames omitted
+2025-12-10 16:26:31,260 WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'capacityManagementAspect' defined in URL [jar:nested:/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/target/nacos-server.jar/!BOOT-INF/lib/nacos-config-3.1.0.jar!/com/alibaba/nacos/config/server/aspect/CapacityManagementAspect.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'embeddedConfigInfoPersistServiceImpl' defined in URL [jar:nested:/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/target/nacos-server.jar/!BOOT-INF/lib/nacos-config-3.1.0.jar!/com/alibaba/nacos/config/server/service/repository/embedded/EmbeddedConfigInfoPersistServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'standaloneDatabaseOperateImpl': Invocation of init method failed
+
+2025-12-10 16:26:31,265 WARN [WatchFileCenter] start close
+
+2025-12-10 16:26:31,265 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/conf
+
+2025-12-10 16:26:31,265 WARN [WatchFileCenter] already closed
+
+2025-12-10 16:26:31,266 INFO [NotifyCenter] Start destroying Publisher
+
+2025-12-10 16:26:31,266 INFO [NotifyCenter] Completed destruction of Publisher
+
+2025-12-10 16:26:31,266 ERROR Startup errors : 
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'capacityManagementAspect' defined in URL [jar:nested:/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/target/nacos-server.jar/!BOOT-INF/lib/nacos-config-3.1.0.jar!/com/alibaba/nacos/config/server/aspect/CapacityManagementAspect.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'embeddedConfigInfoPersistServiceImpl' defined in URL [jar:nested:/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/target/nacos-server.jar/!BOOT-INF/lib/nacos-config-3.1.0.jar!/com/alibaba/nacos/config/server/service/repository/embedded/EmbeddedConfigInfoPersistServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'standaloneDatabaseOperateImpl': Invocation of init method failed
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:149)
+	at com.alibaba.nacos.bootstrap.NacosBootstrap.startCoreContext(NacosBootstrap.java:96)
+	at com.alibaba.nacos.bootstrap.NacosBootstrap.startWithConsole(NacosBootstrap.java:84)
+	at com.alibaba.nacos.bootstrap.NacosBootstrap.main(NacosBootstrap.java:54)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102)
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64)
+	at org.springframework.boot.loader.launch.PropertiesLauncher.main(PropertiesLauncher.java:580)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'embeddedConfigInfoPersistServiceImpl' defined in URL [jar:nested:/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/target/nacos-server.jar/!BOOT-INF/lib/nacos-config-3.1.0.jar!/com/alibaba/nacos/config/server/service/repository/embedded/EmbeddedConfigInfoPersistServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'standaloneDatabaseOperateImpl': Invocation of init method failed
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1752)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1635)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 26 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'standaloneDatabaseOperateImpl': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1818)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1752)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1635)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 40 common frames omitted
+Caused by: java.lang.RuntimeException: com.alibaba.nacos.api.exception.runtime.NacosRuntimeException: errCode: 500, errMsg: load derby-schema.sql error. 
+	at com.alibaba.nacos.persistence.datasource.DynamicDataSource.getDataSource(DynamicDataSource.java:60)
+	at com.alibaba.nacos.persistence.repository.embedded.operate.StandaloneDatabaseOperateImpl.init(StandaloneDatabaseOperateImpl.java:71)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219)
+	... 53 common frames omitted
+Caused by: com.alibaba.nacos.api.exception.runtime.NacosRuntimeException: errCode: 500, errMsg: load derby-schema.sql error. 
+	at com.alibaba.nacos.persistence.datasource.LocalDataSourceServiceImpl.reload(LocalDataSourceServiceImpl.java:103)
+	at com.alibaba.nacos.persistence.datasource.LocalDataSourceServiceImpl.initialize(LocalDataSourceServiceImpl.java:170)
+	at com.alibaba.nacos.persistence.datasource.LocalDataSourceServiceImpl.init(LocalDataSourceServiceImpl.java:86)
+	at com.alibaba.nacos.persistence.datasource.DynamicDataSource.getDataSource(DynamicDataSource.java:49)
+	... 59 common frames omitted
+Caused by: java.sql.SQLException: Failed to start database '/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/derby-data' with class loader org.springframework.boot.loader.launch.LaunchedClassLoader@7106e68e, see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.derby.iapi.error.StandardException: Failed to start database '/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/derby-data' with class loader org.springframework.boot.loader.launch.LaunchedClassLoader@7106e68e, see the next exception for details.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 15 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Another instance of Derby may have already booted the database /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/derby-data.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.impl.store.raw.RawStore.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.impl.store.access.RAMAccessManager.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.impl.db.BasicDatabase.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.impl.jdbc.EmbedConnection.startPersistentService(Unknown Source)
+	... 12 common frames omitted
+2025-12-10 16:26:31,272 ERROR Nacos failed to start, please see /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/logs/nacos.log for more details.
+
+2025-12-10 16:26:31,290 INFO 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+
+2025-12-10 16:26:31,314 ERROR Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'capacityManagementAspect' defined in URL [jar:nested:/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/target/nacos-server.jar/!BOOT-INF/lib/nacos-config-3.1.0.jar!/com/alibaba/nacos/config/server/aspect/CapacityManagementAspect.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'embeddedConfigInfoPersistServiceImpl' defined in URL [jar:nested:/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/target/nacos-server.jar/!BOOT-INF/lib/nacos-config-3.1.0.jar!/com/alibaba/nacos/config/server/service/repository/embedded/EmbeddedConfigInfoPersistServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'standaloneDatabaseOperateImpl': Invocation of init method failed
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:149)
+	at com.alibaba.nacos.bootstrap.NacosBootstrap.startCoreContext(NacosBootstrap.java:96)
+	at com.alibaba.nacos.bootstrap.NacosBootstrap.startWithConsole(NacosBootstrap.java:84)
+	at com.alibaba.nacos.bootstrap.NacosBootstrap.main(NacosBootstrap.java:54)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102)
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64)
+	at org.springframework.boot.loader.launch.PropertiesLauncher.main(PropertiesLauncher.java:580)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'embeddedConfigInfoPersistServiceImpl' defined in URL [jar:nested:/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/target/nacos-server.jar/!BOOT-INF/lib/nacos-config-3.1.0.jar!/com/alibaba/nacos/config/server/service/repository/embedded/EmbeddedConfigInfoPersistServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'standaloneDatabaseOperateImpl': Invocation of init method failed
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1752)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1635)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 26 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'standaloneDatabaseOperateImpl': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1818)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1752)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1635)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 40 common frames omitted
+Caused by: java.lang.RuntimeException: com.alibaba.nacos.api.exception.runtime.NacosRuntimeException: errCode: 500, errMsg: load derby-schema.sql error. 
+	at com.alibaba.nacos.persistence.datasource.DynamicDataSource.getDataSource(DynamicDataSource.java:60)
+	at com.alibaba.nacos.persistence.repository.embedded.operate.StandaloneDatabaseOperateImpl.init(StandaloneDatabaseOperateImpl.java:71)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219)
+	... 53 common frames omitted
+Caused by: com.alibaba.nacos.api.exception.runtime.NacosRuntimeException: errCode: 500, errMsg: load derby-schema.sql error. 
+	at com.alibaba.nacos.persistence.datasource.LocalDataSourceServiceImpl.reload(LocalDataSourceServiceImpl.java:103)
+	at com.alibaba.nacos.persistence.datasource.LocalDataSourceServiceImpl.initialize(LocalDataSourceServiceImpl.java:170)
+	at com.alibaba.nacos.persistence.datasource.LocalDataSourceServiceImpl.init(LocalDataSourceServiceImpl.java:86)
+	at com.alibaba.nacos.persistence.datasource.DynamicDataSource.getDataSource(DynamicDataSource.java:49)
+	... 59 common frames omitted
+Caused by: java.sql.SQLException: Failed to start database '/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/derby-data' with class loader org.springframework.boot.loader.launch.LaunchedClassLoader@7106e68e, see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.derby.iapi.error.StandardException: Failed to start database '/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/derby-data' with class loader org.springframework.boot.loader.launch.LaunchedClassLoader@7106e68e, see the next exception for details.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 15 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Another instance of Derby may have already booted the database /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/derby-data.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.impl.store.raw.RawStore.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.impl.store.access.RAMAccessManager.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.impl.db.BasicDatabase.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.impl.jdbc.EmbedConnection.startPersistentService(Unknown Source)
+	... 12 common frames omitted
+2025-12-10 16:26:31,317 INFO [ThreadPoolManager] Start destroying ThreadPool
+
+2025-12-10 16:26:31,317 INFO [ThreadPoolManager] Completed destruction of ThreadPool
+
+2025-12-10 16:32:38,955 INFO [capacityManagement] start correct usage
+
+2025-12-10 16:32:38,958 INFO [capacityManagement] end correct usage, cost: 0.001218416s
+
+2025-12-10 16:32:39,344 WARN clearHistoryConfig get scheduled
+
+2025-12-10 16:32:39,345 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 16:32:39,347 WARN clearConfigHistory, getBeforeStamp:2025-11-10 16:32:39.0, pageSize:1000
+
+2025-12-10 16:32:39,352 WARN history config cleaner successfully
+
+2025-12-10 16:42:38,961 INFO [capacityManagement] start correct usage
+
+2025-12-10 16:42:38,964 INFO [capacityManagement] end correct usage, cost: 0.002272584s
+
+2025-12-10 16:42:39,353 WARN clearHistoryConfig get scheduled
+
+2025-12-10 16:42:39,354 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 16:42:39,355 WARN clearConfigHistory, getBeforeStamp:2025-11-10 16:42:39.0, pageSize:1000
+
+2025-12-10 16:42:39,358 WARN history config cleaner successfully
+
+2025-12-10 16:52:38,962 INFO [capacityManagement] start correct usage
+
+2025-12-10 16:52:38,964 INFO [capacityManagement] end correct usage, cost: 8.6E-4s
+
+2025-12-10 16:52:39,356 WARN clearHistoryConfig get scheduled
+
+2025-12-10 16:52:39,357 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 16:52:39,359 WARN clearConfigHistory, getBeforeStamp:2025-11-10 16:52:39.0, pageSize:1000
+
+2025-12-10 16:52:39,365 WARN history config cleaner successfully
+
+2025-12-10 17:02:38,959 INFO [capacityManagement] start correct usage
+
+2025-12-10 17:02:38,962 INFO [capacityManagement] end correct usage, cost: 0.001175708s
+
+2025-12-10 17:02:39,361 WARN clearHistoryConfig get scheduled
+
+2025-12-10 17:02:39,361 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 17:02:39,362 WARN clearConfigHistory, getBeforeStamp:2025-11-10 17:02:39.0, pageSize:1000
+
+2025-12-10 17:02:39,365 WARN history config cleaner successfully
+
+2025-12-10 17:12:39,052 INFO [capacityManagement] start correct usage
+
+2025-12-10 17:12:39,055 INFO [capacityManagement] end correct usage, cost: 0.001141625s
+
+2025-12-10 17:12:39,452 WARN clearHistoryConfig get scheduled
+
+2025-12-10 17:12:39,452 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 17:12:39,452 WARN clearConfigHistory, getBeforeStamp:2025-11-10 17:12:39.0, pageSize:1000
+
+2025-12-10 17:12:39,454 WARN history config cleaner successfully
+
+2025-12-10 17:22:39,063 INFO [capacityManagement] start correct usage
+
+2025-12-10 17:22:39,069 INFO [capacityManagement] end correct usage, cost: 0.0027355s
+
+2025-12-10 17:22:39,463 WARN clearHistoryConfig get scheduled
+
+2025-12-10 17:22:39,463 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 17:22:39,465 WARN clearConfigHistory, getBeforeStamp:2025-11-10 17:22:39.0, pageSize:1000
+
+2025-12-10 17:22:39,471 WARN history config cleaner successfully
+
+2025-12-10 17:32:39,078 INFO [capacityManagement] start correct usage
+
+2025-12-10 17:32:39,080 INFO [capacityManagement] end correct usage, cost: 5.34916E-4s
+
+2025-12-10 17:32:39,476 WARN clearHistoryConfig get scheduled
+
+2025-12-10 17:32:39,476 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 17:32:39,477 WARN clearConfigHistory, getBeforeStamp:2025-11-10 17:32:39.0, pageSize:1000
+
+2025-12-10 17:32:39,480 WARN history config cleaner successfully
+
+2025-12-10 17:42:39,039 INFO [capacityManagement] start correct usage
+
+2025-12-10 17:42:39,041 INFO [capacityManagement] end correct usage, cost: 0.001397709s
+
+2025-12-10 17:42:39,437 WARN clearHistoryConfig get scheduled
+
+2025-12-10 17:42:39,437 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 17:42:39,438 WARN clearConfigHistory, getBeforeStamp:2025-11-10 17:42:39.0, pageSize:1000
+
+2025-12-10 17:42:39,443 WARN history config cleaner successfully
+
+2025-12-10 17:52:39,047 INFO [capacityManagement] start correct usage
+
+2025-12-10 17:52:39,051 INFO [capacityManagement] end correct usage, cost: 0.001901208s
+
+2025-12-10 17:52:39,449 WARN clearHistoryConfig get scheduled
+
+2025-12-10 17:52:39,449 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 17:52:39,452 WARN clearConfigHistory, getBeforeStamp:2025-11-10 17:52:39.0, pageSize:1000
+
+2025-12-10 17:52:39,455 WARN history config cleaner successfully
+
+2025-12-10 18:02:39,037 INFO [capacityManagement] start correct usage
+
+2025-12-10 18:02:39,039 INFO [capacityManagement] end correct usage, cost: 0.002068417s
+
+2025-12-10 18:02:39,448 WARN clearHistoryConfig get scheduled
+
+2025-12-10 18:02:39,448 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-10 18:02:39,451 WARN clearConfigHistory, getBeforeStamp:2025-11-10 18:02:39.0, pageSize:1000
+
+2025-12-10 18:02:39,458 WARN history config cleaner successfully
+
+2025-12-10 18:06:37,699 INFO [HttpClientBeanHolder] Start destroying common HttpClient
+
+2025-12-10 18:06:37,696 INFO [ThreadPoolManager] Start destroying ThreadPool
+
+2025-12-10 18:06:37,699 WARN [WatchFileCenter] start close
+
+2025-12-10 18:06:37,698 INFO [NotifyCenter] Start destroying Publisher
+
+2025-12-10 18:06:37,709 INFO [NotifyCenter] Completed destruction of Publisher
+
+2025-12-10 18:06:37,717 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/conf
+
+2025-12-10 18:06:37,721 WARN [WatchFileCenter] already closed
+
+2025-12-10 18:06:37,724 INFO [HttpClientBeanHolder] Completed destruction of HttpClient
+
+2025-12-10 18:06:37,786 INFO Commencing graceful shutdown. Waiting for active requests to complete
+
+2025-12-10 18:06:37,811 INFO Graceful shutdown complete
+
+2025-12-10 18:06:37,852 INFO Commencing graceful shutdown. Waiting for active requests to complete
+
+2025-12-10 18:06:37,855 INFO Graceful shutdown complete
+

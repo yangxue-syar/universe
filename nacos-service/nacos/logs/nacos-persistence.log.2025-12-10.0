@@ -1,0 +1,172 @@
+2025-12-10 08:24:31,363 INFO use local db service for init
+
+2025-12-10 08:24:31,678 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
+
+2025-12-10 08:24:31,683 WARN Syntax error: Encountered "*" at line 1, column 1.
+
+2025-12-10 08:24:31,707 WARN Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2025-12-10 08:24:31,731 WARN Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2025-12-10 08:24:31,742 WARN Table/View 'CONFIG_INFO_GRAY' already exists in Schema 'NACOS'.
+
+2025-12-10 08:24:31,749 WARN Table/View 'APP_LIST' already exists in Schema 'NACOS'.
+
+2025-12-10 08:24:31,752 WARN Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
+
+2025-12-10 08:24:31,754 WARN Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
+
+2025-12-10 08:24:31,757 WARN Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
+
+2025-12-10 08:24:31,762 WARN Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
+
+2025-12-10 08:24:31,765 WARN Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
+
+2025-12-10 08:24:31,767 WARN Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
+
+2025-12-10 08:24:31,771 WARN Table/View 'USERS' already exists in Schema 'NACOS'.
+
+2025-12-10 08:24:31,773 WARN Table/View 'ROLES' already exists in Schema 'NACOS'.
+
+2025-12-10 08:24:31,775 WARN Table/View 'PERMISSIONS' already exists in Schema 'NACOS'.
+
+2025-12-10 08:24:31,781 WARN Column 'SRC_IP' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2025-12-10 08:24:31,783 WARN Column 'SRC_IP' already exists in Table/View '"NACOS"."CONFIG_INFO"'.
+
+2025-12-10 08:24:31,784 WARN Column 'PUBLISH_TYPE' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2025-12-10 08:24:31,785 WARN Column 'EXT_INFO' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2025-12-10 08:24:31,786 WARN Column 'GRAY_NAME' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2025-12-10 08:24:31,787 INFO use StandaloneDatabaseOperateImpl
+
+2025-12-10 08:24:32,054 ERROR [db-error] DataAccessException : caused: StatementCallback; bad SQL grammar [SELECT COUNT(*) FROM config_info_beta ];caused: Table/View 'CONFIG_INFO_BETA' does not exist.;caused: Table/View 'CONFIG_INFO_BETA' does not exist.;
+
+2025-12-10 08:24:35,100 ERROR [db-error] DataAccessException : caused: StatementCallback; bad SQL grammar [SELECT COUNT(*) FROM config_info_beta ];caused: Table/View 'CONFIG_INFO_BETA' does not exist.;caused: Table/View 'CONFIG_INFO_BETA' does not exist.;
+
+2025-12-10 08:24:35,591 ERROR [db-error] DataAccessException : caused: StatementCallback; bad SQL grammar [SELECT COUNT(*) FROM config_info_beta ];caused: Table/View 'CONFIG_INFO_BETA' does not exist.;caused: Table/View 'CONFIG_INFO_BETA' does not exist.;
+
+2025-12-10 11:40:49,131 INFO use local db service for init
+
+2025-12-10 11:40:49,431 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
+
+2025-12-10 11:40:49,436 WARN Syntax error: Encountered "*" at line 1, column 1.
+
+2025-12-10 11:40:49,459 WARN Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2025-12-10 11:40:49,482 WARN Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2025-12-10 11:40:49,491 WARN Table/View 'CONFIG_INFO_GRAY' already exists in Schema 'NACOS'.
+
+2025-12-10 11:40:49,499 WARN Table/View 'APP_LIST' already exists in Schema 'NACOS'.
+
+2025-12-10 11:40:49,502 WARN Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
+
+2025-12-10 11:40:49,505 WARN Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
+
+2025-12-10 11:40:49,507 WARN Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
+
+2025-12-10 11:40:49,511 WARN Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
+
+2025-12-10 11:40:49,514 WARN Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
+
+2025-12-10 11:40:49,516 WARN Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
+
+2025-12-10 11:40:49,520 WARN Table/View 'USERS' already exists in Schema 'NACOS'.
+
+2025-12-10 11:40:49,522 WARN Table/View 'ROLES' already exists in Schema 'NACOS'.
+
+2025-12-10 11:40:49,524 WARN Table/View 'PERMISSIONS' already exists in Schema 'NACOS'.
+
+2025-12-10 11:40:49,530 WARN Column 'SRC_IP' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2025-12-10 11:40:49,531 WARN Column 'SRC_IP' already exists in Table/View '"NACOS"."CONFIG_INFO"'.
+
+2025-12-10 11:40:49,533 WARN Column 'PUBLISH_TYPE' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2025-12-10 11:40:49,534 WARN Column 'EXT_INFO' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2025-12-10 11:40:49,535 WARN Column 'GRAY_NAME' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2025-12-10 11:40:49,535 INFO use StandaloneDatabaseOperateImpl
+
+2025-12-10 11:40:49,785 ERROR [db-error] DataAccessException : caused: StatementCallback; bad SQL grammar [SELECT COUNT(*) FROM config_info_beta ];caused: Table/View 'CONFIG_INFO_BETA' does not exist.;caused: Table/View 'CONFIG_INFO_BETA' does not exist.;
+
+2025-12-10 11:40:52,690 ERROR [db-error] DataAccessException : caused: StatementCallback; bad SQL grammar [SELECT COUNT(*) FROM config_info_beta ];caused: Table/View 'CONFIG_INFO_BETA' does not exist.;caused: Table/View 'CONFIG_INFO_BETA' does not exist.;
+
+2025-12-10 11:40:53,195 ERROR [db-error] DataAccessException : caused: StatementCallback; bad SQL grammar [SELECT COUNT(*) FROM config_info_beta ];caused: Table/View 'CONFIG_INFO_BETA' does not exist.;caused: Table/View 'CONFIG_INFO_BETA' does not exist.;
+
+2025-12-10 16:26:30,037 INFO use local db service for init
+
+2025-12-10 16:26:31,256 ERROR Failed to start database '/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/derby-data' with class loader org.springframework.boot.loader.launch.LaunchedClassLoader@7106e68e, see the next exception for details.
+
+java.sql.SQLException: Failed to start database '/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/derby-data' with class loader org.springframework.boot.loader.launch.LaunchedClassLoader@7106e68e, see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.derby.iapi.error.StandardException: Failed to start database '/Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/derby-data' with class loader org.springframework.boot.loader.launch.LaunchedClassLoader@7106e68e, see the next exception for details.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 15 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Another instance of Derby may have already booted the database /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/derby-data.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.impl.store.raw.RawStore.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.impl.store.access.RAMAccessManager.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.impl.db.BasicDatabase.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.derby.impl.jdbc.EmbedConnection.startPersistentService(Unknown Source)
+	... 12 common frames omitted

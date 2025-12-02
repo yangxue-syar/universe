@@ -1,0 +1,174 @@
+2025-12-11 08:53:34,363 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2025-12-11 08:53:34,363 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2025-12-11 08:53:34,364 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2025-12-11 08:53:34,364 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2025-12-11 08:53:36,247 INFO Load instance extension handler []
+
+2025-12-11 08:54:24,355 INFO Client connection 1765414464259_127.0.0.1_58640 connect
+
+2025-12-11 08:54:24,401 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='movie-service', ephemeral=true, revision=0}, 1765414464259_127.0.0.1_58640
+
+2025-12-11 08:54:24,402 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@movie-service,changed type ADD_SERVICE 
+
+2025-12-11 08:54:26,296 INFO Client connection 1765414466237_127.0.0.1_58665 connect
+
+2025-12-11 08:54:26,314 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=0}, 1765414466237_127.0.0.1_58665
+
+2025-12-11 08:54:26,314 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@user-service,changed type ADD_SERVICE 
+
+2025-12-11 09:09:13,727 INFO Client connection 1765415353675_127.0.0.1_63938 connect
+
+2025-12-11 09:09:13,745 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=0}, 1765415353675_127.0.0.1_63938
+
+2025-12-11 09:09:13,745 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@auth-service,changed type ADD_SERVICE 
+
+2025-12-11 09:17:13,669 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=1}, 1765415353675_127.0.0.1_63938
+
+2025-12-11 09:17:13,673 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@auth-service,changed type DELETE_SERVICE 
+
+2025-12-11 09:17:13,695 INFO Client connection 1765415353675_127.0.0.1_63938 disconnect, remove instances and subscribers
+
+2025-12-11 09:19:04,333 WARN namespace : public, [DEFAULT_GROUP@@auth-service] services are automatically cleaned
+
+2025-12-11 09:20:36,284 INFO Client connection 1765416036229_127.0.0.1_51564 connect
+
+2025-12-11 09:20:36,303 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=0}, 1765416036229_127.0.0.1_51564
+
+2025-12-11 09:20:36,303 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@auth-service,changed type ADD_SERVICE 
+
+2025-12-11 13:48:04,572 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}, 1765414466237_127.0.0.1_58665
+
+2025-12-11 13:48:04,573 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@user-service,changed type DELETE_SERVICE 
+
+2025-12-11 13:48:04,585 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, 1765414466237_127.0.0.1_58665
+
+2025-12-11 13:48:04,593 INFO Client connection 1765414466237_127.0.0.1_58665 disconnect, remove instances and subscribers
+
+2025-12-11 13:48:10,710 INFO Client connection 1765432090651_127.0.0.1_62441 connect
+
+2025-12-11 13:48:10,728 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, 1765432090651_127.0.0.1_62441
+
+2025-12-11 13:48:10,728 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@user-service,changed type ADD_SERVICE 
+
+2025-12-11 14:35:00,215 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, 1765432090651_127.0.0.1_62441
+
+2025-12-11 14:35:00,217 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@user-service,changed type DELETE_SERVICE 
+
+2025-12-11 14:35:00,243 INFO Client connection 1765432090651_127.0.0.1_62441 disconnect, remove instances and subscribers
+
+2025-12-11 14:35:22,184 INFO Client connection 1765434922122_127.0.0.1_55724 connect
+
+2025-12-11 14:35:22,202 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=4}, 1765434922122_127.0.0.1_55724
+
+2025-12-11 14:35:22,202 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@user-service,changed type ADD_SERVICE 
+
+2025-12-11 16:07:27,578 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=5}, 1765434922122_127.0.0.1_55724
+
+2025-12-11 16:07:27,579 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@user-service,changed type DELETE_SERVICE 
+
+2025-12-11 16:07:27,587 INFO Client connection 1765434922122_127.0.0.1_55724 disconnect, remove instances and subscribers
+
+2025-12-11 16:07:33,848 INFO Client connection 1765440453803_127.0.0.1_53527 connect
+
+2025-12-11 16:07:33,863 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=6}, 1765440453803_127.0.0.1_53527
+
+2025-12-11 16:07:33,863 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@user-service,changed type ADD_SERVICE 
+
+2025-12-11 16:07:49,450 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='movie-service', ephemeral=true, revision=1}, 1765414464259_127.0.0.1_58640
+
+2025-12-11 16:07:49,450 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@movie-service,changed type DELETE_SERVICE 
+
+2025-12-11 16:07:49,456 INFO Client connection 1765414464259_127.0.0.1_58640 disconnect, remove instances and subscribers
+
+2025-12-11 16:07:53,386 INFO Client connection 1765440473344_127.0.0.1_53559 connect
+
+2025-12-11 16:07:53,400 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='movie-service', ephemeral=true, revision=2}, 1765440473344_127.0.0.1_53559
+
+2025-12-11 16:07:53,400 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@movie-service,changed type ADD_SERVICE 
+
+2025-12-11 17:18:39,539 INFO [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2025-12-11 17:18:39,560 INFO [NamingServerHttpClientManager] Completed destruction of HTTP-Client
+
+2025-12-11 17:18:39,587 INFO Client connection 1765416036229_127.0.0.1_51564 disconnect, remove instances and subscribers
+
+2025-12-11 17:18:39,587 INFO Client connection 1765440473344_127.0.0.1_53559 disconnect, remove instances and subscribers
+
+2025-12-11 17:18:39,587 INFO Client connection 1765440453803_127.0.0.1_53527 disconnect, remove instances and subscribers
+
+2025-12-11 17:18:39,587 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@auth-service,changed type DELETE_SERVICE 
+
+2025-12-11 17:22:37,365 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2025-12-11 17:22:37,365 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2025-12-11 17:22:37,365 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2025-12-11 17:22:37,365 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2025-12-11 17:22:38,291 INFO Client connection 1765444958254_127.0.0.1_58209 connect
+
+2025-12-11 17:22:38,474 INFO Client connection 1765444958466_127.0.0.1_58210 connect
+
+2025-12-11 17:22:38,474 INFO Client connection 1765444958466_127.0.0.1_58211 connect
+
+2025-12-11 17:22:39,020 INFO Load instance extension handler []
+
+2025-12-11 17:22:39,140 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=0}, 1765444958466_127.0.0.1_58211
+
+2025-12-11 17:22:39,144 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@user-service,changed type ADD_SERVICE 
+
+2025-12-11 17:22:40,170 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='auth-service', ephemeral=true, revision=0}, 1765444958466_127.0.0.1_58210
+
+2025-12-11 17:22:40,170 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@auth-service,changed type ADD_SERVICE 
+
+2025-12-11 17:22:40,470 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='movie-service', ephemeral=true, revision=0}, 1765444958254_127.0.0.1_58209
+
+2025-12-11 17:22:40,470 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@movie-service,changed type ADD_SERVICE 
+
+2025-12-11 17:26:49,434 INFO Client connection 1765444958254_127.0.0.1_58209 disconnect, remove instances and subscribers
+
+2025-12-11 17:26:49,435 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@movie-service,changed type DELETE_SERVICE 
+
+2025-12-11 17:26:54,673 INFO Client connection 1765445214632_127.0.0.1_58292 connect
+
+2025-12-11 17:26:54,687 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='movie-service', ephemeral=true, revision=2}, 1765445214632_127.0.0.1_58292
+
+2025-12-11 17:26:54,687 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@movie-service,changed type ADD_SERVICE 
+
+2025-12-11 18:39:08,259 INFO Client connection 1765444958466_127.0.0.1_58211 disconnect, remove instances and subscribers
+
+2025-12-11 18:39:08,260 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@user-service,changed type DELETE_SERVICE 
+
+2025-12-11 18:39:17,774 INFO Client connection 1765449557728_127.0.0.1_61495 connect
+
+2025-12-11 18:39:17,791 INFO Client change for service Service{namespace='dev', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=0}, 1765449557728_127.0.0.1_61495
+
+2025-12-11 18:39:17,791 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@user-service,changed type ADD_SERVICE 
+
+2025-12-11 18:41:07,573 WARN namespace : public, [DEFAULT_GROUP@@user-service] services are automatically cleaned
+
+2025-12-11 19:34:15,999 INFO Client remove for service Service{namespace='dev', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}, 1765449557728_127.0.0.1_61495
+
+2025-12-11 19:34:15,999 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='movie-service', ephemeral=true, revision=3}, 1765445214632_127.0.0.1_58292
+
+2025-12-11 19:34:15,999 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@movie-service,changed type DELETE_SERVICE 
+
+2025-12-11 19:34:15,999 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@user-service,changed type DELETE_SERVICE 
+
+2025-12-11 19:34:16,024 INFO Client connection 1765449557728_127.0.0.1_61495 disconnect, remove instances and subscribers
+
+2025-12-11 19:34:16,025 INFO Client connection 1765445214632_127.0.0.1_58292 disconnect, remove instances and subscribers
+
+2025-12-11 19:34:18,450 INFO [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2025-12-11 19:34:18,459 INFO [NamingServerHttpClientManager] Completed destruction of HTTP-Client
+
+2025-12-11 19:34:18,480 INFO Client connection 1765444958466_127.0.0.1_58210 disconnect, remove instances and subscribers
+
+2025-12-11 19:34:18,481 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@auth-service,changed type DELETE_SERVICE 
+

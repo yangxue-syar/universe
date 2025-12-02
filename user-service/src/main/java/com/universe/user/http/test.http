@@ -1,0 +1,30 @@
+POST http://192.168.0.80:9102/auth/register
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "password": "123456",
+  "email": "test@example.com",
+  "phone": "13800138000"
+}
+###
+
+POST http://192.168.0.80:9102/auth/login
+Content-Type: application/json
+
+{
+"username": "testuser",
+"password": "123456"
+}
+###
+
+GET http://192.168.0.80:9103/movie/page?page=1&size=10
+###
+POST http://192.168.0.80:9102/favorite/1
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NCwiZXhwIjoxNzY1NTI3NzE4LCJ1c2VybmFtZSI6InRlc3R1c2VyIn0.kXg66FlPSRaMMPq09EF8uFax9JtFU2_YnSMduGf6iBI
+###
+GET http://192.168.0.80:9102/favorite/check/1
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NCwiZXhwIjoxNzY1NTI3NzE4LCJ1c2VybmFtZSI6InRlc3R1c2VyIn0.kXg66FlPSRaMMPq09EF8uFax9JtFU2_YnSMduGf6iBI
+###
+GET http://192.168.0.80:9102/favorite/list
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NCwiZXhwIjoxNzY1NTI3NzE4LCJ1c2VybmFtZSI6InRlc3R1c2VyIn0.kXg66FlPSRaMMPq09EF8uFax9JtFU2_YnSMduGf6iBI

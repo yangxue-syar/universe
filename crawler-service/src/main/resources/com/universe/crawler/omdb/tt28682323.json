@@ -1,0 +1,14 @@
+{
+  "Title": "示例电影：未来战纪",
+  "Year": "2024",
+  "Released": "15 Oct 2024",
+  "Runtime": "125 min",
+  "Director": "张三 / Jane Doe",
+  "Actors": "王小明, Alice Chen, Bob Lee",
+  "Plot": "在不远的未来，人类与机器展开决战，主角带领反抗军寻找失落的真相。",
+  "Poster": "https://example.com/posters/tt28682323.jpg",
+  "imdbRating": "7.6",
+  "imdbID": "tt28682323",
+  "Response": "True",
+  "Genre": "Action, Sci-Fi"
+}

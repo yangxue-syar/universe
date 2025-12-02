@@ -1,0 +1,2 @@
+2025-12-07 18:12:22,733 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='movie-service', ephemeral=true, revision=32}
+

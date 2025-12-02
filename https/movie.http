@@ -1,0 +1,11 @@
+###
+
+# curl http://192.168.0.80:9103/actuator/mappings
+GET http://192.168.0.80:9103/movie/page
+###
+#GET http://192.168.0.80:9103/actuator/health
+
+###
+#GET http://192.168.0.80:9103/category/tree
+
+POST http://192.168.0.80:9103/relation/bind

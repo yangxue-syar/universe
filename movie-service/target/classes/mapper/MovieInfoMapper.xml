@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.universe.mapper.MovieInfoMapper">
+
+    <resultMap id="BaseResultMap" type="com.universe.entity.MovieInfo">
+            <id property="id" column="id" />
+            <result property="title" column="title" />
+            <result property="originalTitle" column="original_title" />
+            <result property="poster" column="poster" />
+            <result property="cover" column="cover" />
+            <result property="director" column="director" />
+            <result property="actors" column="actors" />
+            <result property="description" column="description" />
+            <result property="releaseDate" column="release_date" />
+            <result property="duration" column="duration" />
+            <result property="rating" column="rating" />
+            <result property="viewsCount" column="views_count" />
+            <result property="sourceUrl" column="source_url" />
+            <result property="status" column="status" />
+            <result property="createTime" column="create_time" />
+            <result property="updateTime" column="update_time" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,title,original_title,poster,cover,director,
+        actors,description,release_date,duration,rating,
+        views_count,source_url,status,create_time,update_time
+    </sql>
+    <select id="selectPageByCategory" resultType="com.universe.entity.MovieInfo">
+        SELECT DISTINCT m.*
+        FROM movie_info m
+        INNER JOIN movie_category_relation r ON m.id = r.movie_id
+        WHERE m.status = 1
+        <if test="dto.categoryId != null">
+            AND r.category_id = #{dto.categoryId}
+        </if>
+        <if test="dto.title != null and dto.title != ''">
+            AND m.title LIKE CONCAT('%', #{dto.title}, '%')
+        </if>
+        <if test="dto.year != null">
+            AND YEAR(m.release_date) = #{dto.year}
+        </if>
+        <if test="dto.minRating != null">
+            AND m.rating >= #{dto.minRating}
+        </if>
+        <choose>
+            <when test="dto.sortBy == 'latest'">
+                ORDER BY m.release_date DESC
+            </when>
+            <when test="dto.sortBy == 'rating'">
+                ORDER BY m.rating DESC
+            </when>
+            <when test="dto.sortBy == 'views'">
+                ORDER BY m.views_count DESC
+            </when>
+            <otherwise>
+                ORDER BY m.create_time DESC
+            </otherwise>
+        </choose>
+    </select>
+</mapper>

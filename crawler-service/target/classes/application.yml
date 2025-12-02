@@ -1,0 +1,32 @@
+server:
+  port: 9104
+crawler:
+  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+  timeout: 10000
+  max-threads: 5
+  rate-per-second: 1
+omdb:
+  api:
+    key: "6e8f4a05"   # 请把真实 key 放在安全位置，不要提交到公共仓库
+    base: "http://www.omdbapi.com/"
+  demo:
+    run: true
+    imdb-id: "tt28682323"
+
+spring:
+  application:
+    name: movie-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/movie_db?allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+    password: 87654321
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848  # 确保地址正确
+  #        username: nacos              # 如有需要，添加认证信息
+  #        password: nacos
+  mybatis-plus:
+    configuration:
+      log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

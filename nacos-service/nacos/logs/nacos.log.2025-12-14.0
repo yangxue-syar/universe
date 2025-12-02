@@ -1,0 +1,136 @@
+2025-12-14 00:49:30,787 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h1m58s323ms).
+
+2025-12-14 04:41:56,200 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h52m25s413ms).
+
+2025-12-14 07:43:55,001 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h1m58s801ms).
+
+2025-12-14 09:45:53,004 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h1m58s3ms).
+
+2025-12-14 12:48:55,721 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h3m2s717ms).
+
+2025-12-14 14:10:24,778 INFO [capacityManagement] start correct usage
+
+2025-12-14 14:10:24,780 INFO [capacityManagement] end correct usage, cost: 0.001455416s
+
+2025-12-14 14:10:25,230 WARN clearHistoryConfig get scheduled
+
+2025-12-14 14:10:25,230 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-14 14:10:25,234 WARN clearConfigHistory, getBeforeStamp:2025-11-14 14:10:25.0, pageSize:1000
+
+2025-12-14 14:10:25,238 WARN history config cleaner successfully
+
+2025-12-14 14:10:25,490 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m29s769ms).
+
+2025-12-14 14:21:21,728 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m56s238ms).
+
+2025-12-14 16:07:26,824 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h46m5s96ms).
+
+2025-12-14 16:47:03,600 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=39m36s776ms).
+
+2025-12-14 16:49:06,920 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m3s320ms).
+
+2025-12-14 16:51:45,725 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m38s805ms).
+
+2025-12-14 16:54:38,941 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m53s216ms).
+
+2025-12-14 17:00:22,720 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m43s779ms).
+
+2025-12-14 17:03:52,725 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m30s5ms).
+
+2025-12-14 17:06:50,661 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m57s936ms).
+
+2025-12-14 17:09:24,079 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m33s418ms).
+
+2025-12-14 17:13:36,558 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m12s479ms).
+
+2025-12-14 17:15:41,154 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m4s596ms).
+
+2025-12-14 17:17:24,083 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m42s929ms).
+
+2025-12-14 17:18:53,429 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m29s345ms).
+
+2025-12-14 17:20:37,176 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m43s748ms).
+
+2025-12-14 17:21:52,400 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m15s224ms).
+
+2025-12-14 17:27:42,727 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m50s327ms).
+
+2025-12-14 17:38:05,560 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m22s832ms).
+
+2025-12-14 17:43:50,130 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m44s571ms).
+
+2025-12-14 17:44:41,239 INFO [capacityManagement] start correct usage
+
+2025-12-14 17:44:41,240 INFO [capacityManagement] end correct usage, cost: 7.29209E-4s
+
+2025-12-14 17:44:41,704 WARN clearHistoryConfig get scheduled
+
+2025-12-14 17:44:41,705 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-14 17:44:41,705 WARN clearConfigHistory, getBeforeStamp:2025-11-14 17:44:41.0, pageSize:1000
+
+2025-12-14 17:44:41,708 WARN history config cleaner successfully
+
+2025-12-14 17:44:42,105 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51s975ms).
+
+2025-12-14 17:46:40,225 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m58s120ms).
+
+2025-12-14 17:51:31,821 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m51s596ms).
+
+2025-12-14 17:53:18,504 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m46s683ms).
+
+2025-12-14 17:55:01,000 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m42s496ms).
+
+2025-12-14 17:56:24,188 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m23s188ms).
+
+2025-12-14 17:57:41,448 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s260ms).
+
+2025-12-14 18:01:39,292 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m57s844ms).
+
+2025-12-14 18:19:11,094 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m31s802ms).
+
+2025-12-14 18:35:55,831 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m44s737ms).
+
+2025-12-14 18:52:53,301 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m57s470ms).
+
+2025-12-14 18:54:37,983 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m44s682ms).
+
+2025-12-14 19:53:59,200 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m21s217ms).
+
+2025-12-14 20:56:03,478 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h2m4s278ms).
+
+2025-12-14 21:12:23,435 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m19s957ms).
+
+2025-12-14 21:55:53,925 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=43m30s489ms).
+
+2025-12-14 22:12:38,702 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m44s778ms).
+
+2025-12-14 22:14:23,386 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m44s684ms).
+
+2025-12-14 22:57:01,486 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=42m38s100ms).
+
+2025-12-14 23:13:21,355 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m19s868ms).
+
+2025-12-14 23:15:05,062 INFO [capacityManagement] start correct usage
+
+2025-12-14 23:15:05,063 INFO [capacityManagement] end correct usage, cost: 0.001455708s
+
+2025-12-14 23:15:05,535 WARN clearHistoryConfig get scheduled
+
+2025-12-14 23:15:05,535 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-12-14 23:15:05,535 WARN clearConfigHistory, getBeforeStamp:2025-11-14 23:15:05.0, pageSize:1000
+
+2025-12-14 23:15:05,537 WARN history config cleaner successfully
+
+2025-12-14 23:15:06,039 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m44s685ms).
+
+2025-12-14 23:32:33,510 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m27s471ms).
+
+2025-12-14 23:49:58,813 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m25s303ms).
+
+2025-12-14 23:51:43,459 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m44s646ms).
+
+2025-12-14 23:58:06,252 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m22s792ms).
+

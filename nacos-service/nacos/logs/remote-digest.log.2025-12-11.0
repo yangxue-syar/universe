@@ -1,0 +1,344 @@
+2025-12-11 08:54:24,261 INFO Connection transportReady,connectionId = 1765414464259_127.0.0.1_58640 
+
+2025-12-11 08:54:26,237 INFO Connection transportReady,connectionId = 1765414466237_127.0.0.1_58665 
+
+2025-12-11 09:09:13,675 INFO Connection transportReady,connectionId = 1765415353675_127.0.0.1_63938 
+
+2025-12-11 09:17:13,687 INFO Connection transportTerminated,connectionId = 1765415353675_127.0.0.1_63938 
+
+2025-12-11 09:17:13,687 WARN [1765415353675_127.0.0.1_63938] connection  close bi stream exception  : {}
+
+java.lang.IllegalStateException: call already closed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:513)
+	at io.grpc.internal.ServerCallImpl.closeInternal(ServerCallImpl.java:218)
+	at io.grpc.internal.ServerCallImpl.close(ServerCallImpl.java:213)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onCompleted(ServerCalls.java:396)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.closeBiStream(GrpcConnection.java:210)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.close(GrpcConnection.java:195)
+	at com.alibaba.nacos.core.remote.ConnectionManager.unregister(ConnectionManager.java:158)
+	at com.alibaba.nacos.core.remote.grpc.AddressTransportFilter.transportTerminated(AddressTransportFilter.java:77)
+	at io.grpc.internal.ServerImpl$ServerTransportListenerImpl.transportTerminated(ServerImpl.java:456)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.notifyTerminated(NettyServerTransport.java:216)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.access$100(NettyServerTransport.java:51)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:150)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:143)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:603)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:596)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:572)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:505)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:649)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:638)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:118)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1161)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:753)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:729)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:619)
+	at io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.closeOnRead(AbstractNioByteChannel.java:105)
+	at io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:174)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-12-11 09:17:13,694 INFO [1765415353675_127.0.0.1_63938]client disconnected,clear config listen context
+
+2025-12-11 09:20:36,229 INFO Connection transportReady,connectionId = 1765416036229_127.0.0.1_51564 
+
+2025-12-11 13:48:04,591 INFO Connection transportTerminated,connectionId = 1765414466237_127.0.0.1_58665 
+
+2025-12-11 13:48:04,591 WARN [1765414466237_127.0.0.1_58665] connection  close bi stream exception  : {}
+
+java.lang.IllegalStateException: call already closed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:513)
+	at io.grpc.internal.ServerCallImpl.closeInternal(ServerCallImpl.java:218)
+	at io.grpc.internal.ServerCallImpl.close(ServerCallImpl.java:213)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onCompleted(ServerCalls.java:396)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.closeBiStream(GrpcConnection.java:210)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.close(GrpcConnection.java:195)
+	at com.alibaba.nacos.core.remote.ConnectionManager.unregister(ConnectionManager.java:158)
+	at com.alibaba.nacos.core.remote.grpc.AddressTransportFilter.transportTerminated(AddressTransportFilter.java:77)
+	at io.grpc.internal.ServerImpl$ServerTransportListenerImpl.transportTerminated(ServerImpl.java:456)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.notifyTerminated(NettyServerTransport.java:216)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.access$100(NettyServerTransport.java:51)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:150)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:143)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:603)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:596)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:572)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:505)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:649)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:638)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:118)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1161)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:753)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:729)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:619)
+	at io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.closeOnRead(AbstractNioByteChannel.java:105)
+	at io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:174)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-12-11 13:48:04,593 INFO [1765414466237_127.0.0.1_58665]client disconnected,clear config listen context
+
+2025-12-11 13:48:10,651 INFO Connection transportReady,connectionId = 1765432090651_127.0.0.1_62441 
+
+2025-12-11 14:35:00,238 INFO Connection transportTerminated,connectionId = 1765432090651_127.0.0.1_62441 
+
+2025-12-11 14:35:00,239 WARN [1765432090651_127.0.0.1_62441] connection  close bi stream exception  : {}
+
+java.lang.IllegalStateException: call already closed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:513)
+	at io.grpc.internal.ServerCallImpl.closeInternal(ServerCallImpl.java:218)
+	at io.grpc.internal.ServerCallImpl.close(ServerCallImpl.java:213)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onCompleted(ServerCalls.java:396)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.closeBiStream(GrpcConnection.java:210)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.close(GrpcConnection.java:195)
+	at com.alibaba.nacos.core.remote.ConnectionManager.unregister(ConnectionManager.java:158)
+	at com.alibaba.nacos.core.remote.grpc.AddressTransportFilter.transportTerminated(AddressTransportFilter.java:77)
+	at io.grpc.internal.ServerImpl$ServerTransportListenerImpl.transportTerminated(ServerImpl.java:456)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.notifyTerminated(NettyServerTransport.java:216)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.access$100(NettyServerTransport.java:51)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:150)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:143)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:603)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:596)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:572)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:505)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:649)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:638)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:118)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1161)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:753)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:729)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:619)
+	at io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.closeOnRead(AbstractNioByteChannel.java:105)
+	at io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:174)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-12-11 14:35:00,242 INFO [1765432090651_127.0.0.1_62441]client disconnected,clear config listen context
+
+2025-12-11 14:35:22,122 INFO Connection transportReady,connectionId = 1765434922122_127.0.0.1_55724 
+
+2025-12-11 16:07:27,585 INFO Connection transportTerminated,connectionId = 1765434922122_127.0.0.1_55724 
+
+2025-12-11 16:07:27,586 WARN [1765434922122_127.0.0.1_55724] connection  close bi stream exception  : {}
+
+java.lang.IllegalStateException: call already closed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:513)
+	at io.grpc.internal.ServerCallImpl.closeInternal(ServerCallImpl.java:218)
+	at io.grpc.internal.ServerCallImpl.close(ServerCallImpl.java:213)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onCompleted(ServerCalls.java:396)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.closeBiStream(GrpcConnection.java:210)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.close(GrpcConnection.java:195)
+	at com.alibaba.nacos.core.remote.ConnectionManager.unregister(ConnectionManager.java:158)
+	at com.alibaba.nacos.core.remote.grpc.AddressTransportFilter.transportTerminated(AddressTransportFilter.java:77)
+	at io.grpc.internal.ServerImpl$ServerTransportListenerImpl.transportTerminated(ServerImpl.java:456)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.notifyTerminated(NettyServerTransport.java:216)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.access$100(NettyServerTransport.java:51)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:150)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:143)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:603)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:596)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:572)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:505)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:649)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:638)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:118)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1161)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:753)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:729)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:619)
+	at io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.closeOnRead(AbstractNioByteChannel.java:105)
+	at io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:174)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-12-11 16:07:27,587 INFO [1765434922122_127.0.0.1_55724]client disconnected,clear config listen context
+
+2025-12-11 16:07:33,803 INFO Connection transportReady,connectionId = 1765440453803_127.0.0.1_53527 
+
+2025-12-11 16:07:49,456 INFO Connection transportTerminated,connectionId = 1765414464259_127.0.0.1_58640 
+
+2025-12-11 16:07:49,456 WARN [1765414464259_127.0.0.1_58640] connection  close bi stream exception  : {}
+
+java.lang.IllegalStateException: call already closed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:513)
+	at io.grpc.internal.ServerCallImpl.closeInternal(ServerCallImpl.java:218)
+	at io.grpc.internal.ServerCallImpl.close(ServerCallImpl.java:213)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onCompleted(ServerCalls.java:396)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.closeBiStream(GrpcConnection.java:210)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.close(GrpcConnection.java:195)
+	at com.alibaba.nacos.core.remote.ConnectionManager.unregister(ConnectionManager.java:158)
+	at com.alibaba.nacos.core.remote.grpc.AddressTransportFilter.transportTerminated(AddressTransportFilter.java:77)
+	at io.grpc.internal.ServerImpl$ServerTransportListenerImpl.transportTerminated(ServerImpl.java:456)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.notifyTerminated(NettyServerTransport.java:216)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.access$100(NettyServerTransport.java:51)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:150)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:143)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:603)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:596)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:572)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:505)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:649)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:638)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:118)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1161)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:753)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:729)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:619)
+	at io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.closeOnRead(AbstractNioByteChannel.java:105)
+	at io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:174)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-12-11 16:07:49,456 INFO [1765414464259_127.0.0.1_58640]client disconnected,clear config listen context
+
+2025-12-11 16:07:53,344 INFO Connection transportReady,connectionId = 1765440473344_127.0.0.1_53559 
+
+2025-12-11 17:18:39,584 INFO Connection transportTerminated,connectionId = 1765416036229_127.0.0.1_51564 
+
+2025-12-11 17:18:39,584 INFO Connection transportTerminated,connectionId = 1765440453803_127.0.0.1_53527 
+
+2025-12-11 17:18:39,584 INFO Connection transportTerminated,connectionId = 1765440473344_127.0.0.1_53559 
+
+2025-12-11 17:18:39,587 INFO [1765416036229_127.0.0.1_51564]client disconnected,clear config listen context
+
+2025-12-11 17:18:39,587 INFO [1765440473344_127.0.0.1_53559]client disconnected,clear config listen context
+
+2025-12-11 17:18:39,587 INFO [1765440453803_127.0.0.1_53527]client disconnected,clear config listen context
+
+2025-12-11 17:22:38,255 INFO Connection transportReady,connectionId = 1765444958254_127.0.0.1_58209 
+
+2025-12-11 17:22:38,466 INFO Connection transportReady,connectionId = 1765444958466_127.0.0.1_58210 
+
+2025-12-11 17:22:38,466 INFO Connection transportReady,connectionId = 1765444958466_127.0.0.1_58211 
+
+2025-12-11 17:26:49,431 INFO Connection transportTerminated,connectionId = 1765444958254_127.0.0.1_58209 
+
+2025-12-11 17:26:49,434 INFO [1765444958254_127.0.0.1_58209]client disconnected,clear config listen context
+
+2025-12-11 17:26:54,632 INFO Connection transportReady,connectionId = 1765445214632_127.0.0.1_58292 
+
+2025-12-11 18:39:08,256 INFO Connection transportTerminated,connectionId = 1765444958466_127.0.0.1_58211 
+
+2025-12-11 18:39:08,259 INFO [1765444958466_127.0.0.1_58211]client disconnected,clear config listen context
+
+2025-12-11 18:39:17,728 INFO Connection transportReady,connectionId = 1765449557728_127.0.0.1_61495 
+
+2025-12-11 19:34:16,006 INFO Connection transportTerminated,connectionId = 1765449557728_127.0.0.1_61495 
+
+2025-12-11 19:34:16,006 INFO Connection transportTerminated,connectionId = 1765445214632_127.0.0.1_58292 
+
+2025-12-11 19:34:16,006 WARN [1765449557728_127.0.0.1_61495] connection  close bi stream exception  : {}
+
+java.lang.IllegalStateException: call already closed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:513)
+	at io.grpc.internal.ServerCallImpl.closeInternal(ServerCallImpl.java:218)
+	at io.grpc.internal.ServerCallImpl.close(ServerCallImpl.java:213)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onCompleted(ServerCalls.java:396)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.closeBiStream(GrpcConnection.java:210)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.close(GrpcConnection.java:195)
+	at com.alibaba.nacos.core.remote.ConnectionManager.unregister(ConnectionManager.java:158)
+	at com.alibaba.nacos.core.remote.grpc.AddressTransportFilter.transportTerminated(AddressTransportFilter.java:77)
+	at io.grpc.internal.ServerImpl$ServerTransportListenerImpl.transportTerminated(ServerImpl.java:456)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.notifyTerminated(NettyServerTransport.java:216)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.access$100(NettyServerTransport.java:51)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:150)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:143)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:603)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:596)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:572)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:505)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:649)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:638)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:118)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1161)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:753)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:729)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:619)
+	at io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.closeOnRead(AbstractNioByteChannel.java:105)
+	at io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:174)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-12-11 19:34:16,024 INFO [1765449557728_127.0.0.1_61495]client disconnected,clear config listen context
+
+2025-12-11 19:34:16,024 WARN [1765445214632_127.0.0.1_58292] connection  close bi stream exception  : {}
+
+java.lang.IllegalStateException: call already closed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:513)
+	at io.grpc.internal.ServerCallImpl.closeInternal(ServerCallImpl.java:218)
+	at io.grpc.internal.ServerCallImpl.close(ServerCallImpl.java:213)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onCompleted(ServerCalls.java:396)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.closeBiStream(GrpcConnection.java:210)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.close(GrpcConnection.java:195)
+	at com.alibaba.nacos.core.remote.ConnectionManager.unregister(ConnectionManager.java:158)
+	at com.alibaba.nacos.core.remote.grpc.AddressTransportFilter.transportTerminated(AddressTransportFilter.java:77)
+	at io.grpc.internal.ServerImpl$ServerTransportListenerImpl.transportTerminated(ServerImpl.java:456)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.notifyTerminated(NettyServerTransport.java:216)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.access$100(NettyServerTransport.java:51)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:150)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:143)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:603)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:596)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:572)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:505)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:649)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:638)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:118)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1161)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:753)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:729)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:619)
+	at io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.closeOnRead(AbstractNioByteChannel.java:105)
+	at io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:174)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-12-11 19:34:16,025 INFO [1765445214632_127.0.0.1_58292]client disconnected,clear config listen context
+
+2025-12-11 19:34:18,474 INFO Connection transportTerminated,connectionId = 1765444958466_127.0.0.1_58210 
+
+2025-12-11 19:34:18,480 INFO [1765444958466_127.0.0.1_58210]client disconnected,clear config listen context
+

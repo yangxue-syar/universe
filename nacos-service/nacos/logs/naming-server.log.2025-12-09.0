@@ -1,0 +1,28 @@
+2025-12-09 08:45:11,215 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2025-12-09 08:45:11,215 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2025-12-09 08:45:11,215 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2025-12-09 08:45:11,215 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2025-12-09 08:45:13,262 INFO Load instance extension handler []
+
+2025-12-09 08:45:24,652 INFO Client connection 1765241124564_127.0.0.1_60854 connect
+
+2025-12-09 08:45:24,691 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='movie-service', ephemeral=true, revision=0}, 1765241124564_127.0.0.1_60854
+
+2025-12-09 08:45:24,695 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@movie-service,changed type ADD_SERVICE 
+
+2025-12-09 09:28:00,880 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='movie-service', ephemeral=true, revision=1}, 1765241124564_127.0.0.1_60854
+
+2025-12-09 09:28:00,883 WARN [fuzzy-watch] service change matched,service key public@@DEFAULT_GROUP@@movie-service,changed type DELETE_SERVICE 
+
+2025-12-09 09:28:00,898 INFO Client connection 1765241124564_127.0.0.1_60854 disconnect, remove instances and subscribers
+
+2025-12-09 09:29:43,821 WARN namespace : public, [DEFAULT_GROUP@@movie-service] services are automatically cleaned
+
+2025-12-09 15:07:23,394 INFO [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2025-12-09 15:07:23,402 INFO [NamingServerHttpClientManager] Completed destruction of HTTP-Client
+

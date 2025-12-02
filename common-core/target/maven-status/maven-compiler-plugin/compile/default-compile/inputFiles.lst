@@ -1,0 +1,11 @@
+/Users/mac/IdeaProjects/universe-film-and-television-community/common-core/src/main/java/com/universe/common/Result.java
+/Users/mac/IdeaProjects/universe-film-and-television-community/common-core/src/main/java/com/universe/common/config/CorsFilter.java
+/Users/mac/IdeaProjects/universe-film-and-television-community/common-core/src/main/java/com/universe/common/config/CorsFilterConfig.java
+/Users/mac/IdeaProjects/universe-film-and-television-community/common-core/src/main/java/com/universe/common/config/MyBatisPlusConfig.java
+/Users/mac/IdeaProjects/universe-film-and-television-community/common-core/src/main/java/com/universe/common/config/WebConfig.java
+/Users/mac/IdeaProjects/universe-film-and-television-community/common-core/src/main/java/com/universe/common/constants/CommonConstants.java
+/Users/mac/IdeaProjects/universe-film-and-television-community/common-core/src/main/java/com/universe/common/entity/BaseEntity.java
+/Users/mac/IdeaProjects/universe-film-and-television-community/common-core/src/main/java/com/universe/common/exception/BusinessException.java
+/Users/mac/IdeaProjects/universe-film-and-television-community/common-core/src/main/java/com/universe/common/exception/GlobalExceptionHandler.java
+/Users/mac/IdeaProjects/universe-film-and-television-community/common-core/src/main/java/com/universe/common/utils/JwtUtils.java
+/Users/mac/IdeaProjects/universe-film-and-television-community/common-core/src/main/java/com/universe/common/utils/PasswordUtils.java

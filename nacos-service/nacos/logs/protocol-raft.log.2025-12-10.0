@@ -1,0 +1,100 @@
+2025-12-10 08:24:32,482 INFO Initializes the Raft protocol, raft-config info : {"data":{},"members":["192.168.0.80:7848"],"strictMode":false,"selfMember":"192.168.0.80:7848"}
+
+2025-12-10 08:24:32,602 INFO ========= The raft protocol is starting... =========
+
+2025-12-10 08:24:32,614 INFO ========= The raft protocol start finished... =========
+
+2025-12-10 08:24:32,633 INFO create raft group : naming_persistent_service_v2
+
+2025-12-10 08:24:33,267 INFO snapshot start to load from : /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_15
+
+2025-12-10 08:24:33,272 INFO snapshot success to load from : /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_15
+
+2025-12-10 08:24:33,273 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='null', term=null, raftClusterInfo=[192.168.0.80:7848]}
+
+2025-12-10 08:24:33,307 INFO create raft group : naming_persistent_service
+
+2025-12-10 08:24:33,307 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='192.168.0.80:7848', term=16, raftClusterInfo=[192.168.0.80:7848]}
+
+2025-12-10 08:24:33,351 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='null', term=null, raftClusterInfo=[192.168.0.80:7848]}
+
+2025-12-10 08:24:33,369 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='192.168.0.80:7848', term=16, raftClusterInfo=[192.168.0.80:7848]}
+
+2025-12-10 08:24:33,374 INFO create raft group : naming_instance_metadata
+
+2025-12-10 08:24:33,415 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='null', term=null, raftClusterInfo=[192.168.0.80:7848]}
+
+2025-12-10 08:24:33,436 INFO create raft group : naming_service_metadata
+
+2025-12-10 08:24:33,439 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='192.168.0.80:7848', term=16, raftClusterInfo=[192.168.0.80:7848]}
+
+2025-12-10 08:24:33,476 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='null', term=null, raftClusterInfo=[192.168.0.80:7848]}
+
+2025-12-10 08:24:33,494 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='192.168.0.80:7848', term=16, raftClusterInfo=[192.168.0.80:7848]}
+
+2025-12-10 08:24:33,579 INFO create raft group : lock_acquire_service_v2
+
+2025-12-10 08:24:33,625 INFO snapshot start to load from : /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/snapshot/snapshot_15
+
+2025-12-10 08:24:33,626 INFO snapshot success to load from : /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/snapshot/snapshot_15
+
+2025-12-10 08:24:33,626 INFO This Raft event changes : RaftEvent{groupId='lock_acquire_service_v2', leader='null', term=null, raftClusterInfo=[192.168.0.80:7848]}
+
+2025-12-10 08:24:33,648 INFO This Raft event changes : RaftEvent{groupId='lock_acquire_service_v2', leader='192.168.0.80:7848', term=16, raftClusterInfo=[192.168.0.80:7848]}
+
+2025-12-10 11:36:12,383 INFO shutdown jraft server
+
+2025-12-10 11:36:12,383 INFO ========= The raft protocol is starting to close =========
+
+2025-12-10 11:36:12,452 INFO ========= The raft protocol has been closed =========
+
+2025-12-10 11:40:50,183 INFO Initializes the Raft protocol, raft-config info : {"data":{},"members":["192.168.0.80:7848"],"strictMode":false,"selfMember":"192.168.0.80:7848"}
+
+2025-12-10 11:40:50,297 INFO ========= The raft protocol is starting... =========
+
+2025-12-10 11:40:50,310 INFO ========= The raft protocol start finished... =========
+
+2025-12-10 11:40:50,325 INFO create raft group : naming_persistent_service_v2
+
+2025-12-10 11:40:50,767 INFO snapshot start to load from : /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_16
+
+2025-12-10 11:40:50,772 INFO snapshot success to load from : /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_16
+
+2025-12-10 11:40:50,773 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='null', term=null, raftClusterInfo=[192.168.0.80:7848]}
+
+2025-12-10 11:40:50,807 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='192.168.0.80:7848', term=17, raftClusterInfo=[192.168.0.80:7848]}
+
+2025-12-10 11:40:50,808 INFO create raft group : naming_persistent_service
+
+2025-12-10 11:40:50,858 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='null', term=null, raftClusterInfo=[192.168.0.80:7848]}
+
+2025-12-10 11:40:50,895 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='192.168.0.80:7848', term=17, raftClusterInfo=[192.168.0.80:7848]}
+
+2025-12-10 11:40:50,897 INFO create raft group : naming_instance_metadata
+
+2025-12-10 11:40:50,945 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='null', term=null, raftClusterInfo=[192.168.0.80:7848]}
+
+2025-12-10 11:40:50,970 INFO create raft group : naming_service_metadata
+
+2025-12-10 11:40:50,975 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='192.168.0.80:7848', term=17, raftClusterInfo=[192.168.0.80:7848]}
+
+2025-12-10 11:40:51,021 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='null', term=null, raftClusterInfo=[192.168.0.80:7848]}
+
+2025-12-10 11:40:51,055 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='192.168.0.80:7848', term=17, raftClusterInfo=[192.168.0.80:7848]}
+
+2025-12-10 11:40:51,132 INFO create raft group : lock_acquire_service_v2
+
+2025-12-10 11:40:51,177 INFO snapshot start to load from : /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/snapshot/snapshot_16
+
+2025-12-10 11:40:51,177 INFO snapshot success to load from : /Users/mac/IdeaProjects/universe-film-and-television-community/nacos-service/nacos/data/protocol/raft/lock_acquire_service_v2/snapshot/snapshot_16
+
+2025-12-10 11:40:51,180 INFO This Raft event changes : RaftEvent{groupId='lock_acquire_service_v2', leader='null', term=null, raftClusterInfo=[192.168.0.80:7848]}
+
+2025-12-10 11:40:51,214 INFO This Raft event changes : RaftEvent{groupId='lock_acquire_service_v2', leader='192.168.0.80:7848', term=17, raftClusterInfo=[192.168.0.80:7848]}
+
+2025-12-10 18:06:37,877 INFO shutdown jraft server
+
+2025-12-10 18:06:37,878 INFO ========= The raft protocol is starting to close =========
+
+2025-12-10 18:06:37,994 INFO ========= The raft protocol has been closed =========
+
